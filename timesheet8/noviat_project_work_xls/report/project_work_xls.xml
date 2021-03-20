@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+    <record id="action_project_work_export_xls" model="ir.actions.report.xml">
+      <field name="name">Export Selected Lines</field>
+      <field name="model">project.task.work</field>
+      <field name="type">ir.actions.report.xml</field>
+      <field name="report_name">project.work.xls</field>
+      <field name="report_type">xls</field>
+      <field name="auto" eval="False"/>
+    </record>
+
+    <record model="ir.values" id="action_project_work_export_xls_values">
+      <field name="name">Export Selected Lines</field>
+      <field name="key2">client_action_multi</field>
+      <field name="value" eval="'ir.actions.report.xml,' +str(ref('action_project_work_export_xls'))"/>
+      <field name="model">project.task.work</field>
+    </record>
+
+  </data>
+</openerp>

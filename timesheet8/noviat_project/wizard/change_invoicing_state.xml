@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<openerp>
+  <data>
+
+    <!-- Change Invoicing State of selected items -->
+    <record id="view_change_invoicing_state" model="ir.ui.view">
+      <field name="name">task.work.change.invoicing.state.form</field>
+      <field name="model">task.work.change.invoicing.state</field>
+      <field name="arch" type="xml">
+        <form string="Change Invoicing State of selected items">
+          <group>
+          <field name="invoice_state"/>
+          </group>
+          <footer>
+            <button name="change_state" string="Confirm" type="object" class="oe_highlight" groups="account.group_account_user"/>
+            or
+            <button string="Cancel" class="oe_link" special="cancel"/>
+          </footer>
+        </form>
+      </field>
+    </record>
+    
+    <record id="action_change_invoicing_state" model="ir.actions.act_window">
+      <field name="name">Change Invoicing State of selected items</field>
+      <field name="res_model">task.work.change.invoicing.state</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+      <field name="view_id" ref="view_change_invoicing_state"/>
+      <field name="help">Change Invoicing State of selected items.</field>
+      <field name="target">new</field>
+    </record>
+    
+    <record model="ir.values" id="action_action_change_invoicing_state_values">
+      <field name="name">Change Invoicing State of selected items</field>
+      <field name="key2">client_action_multi</field>
+      <field name="value" eval="'ir.actions.act_window,' +str(ref('action_change_invoicing_state'))" />
+      <field name="model">project.task.work</field>
+    </record>
+
+  </data>
+</openerp>

@@ -1,0 +1,7 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_intrastat_unit","Intrastat Supplementary Units","model_intrastat_unit",,1,0,0,0
+"access_intrastat_region","Intrastat Regions","model_intrastat_region",,1,0,0,0
+"access_intrastat_transaction","Intrastat Transaction Type","model_intrastat_transaction",,1,0,0,0
+"access_intrastat_transport_mode","Intrastat Transport Mode","model_intrastat_transport_mode",,1,0,0,0
+"access_l10n_be_report_intrastat_product","l10n_be_report_intrastat_product accountant","model_l10n_be_report_intrastat_product","account.group_account_manager",1,1,1,1
+"access_l10n_be_report_intrastat_product_line","l10n_be_report_intrastat_product_line accountant","model_l10n_be_report_intrastat_product_line","account.group_account_manager",1,1,1,1

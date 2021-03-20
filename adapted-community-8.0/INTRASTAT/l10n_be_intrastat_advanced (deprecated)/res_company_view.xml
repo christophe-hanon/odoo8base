@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<openerp>
+  <data>
+
+    <record id="intrastat_company_form_view" model="ir.ui.view">
+      <field name="name">intrastat.company.form</field>
+      <field name="model">res.company</field>
+      <field name="type">form</field>
+      <field name="inherit_id" ref="intrastat_base.view_company_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//notebook/page[@string='Intrastat Settings']/group[@string='Common Intrastat Settings']" position="after">
+          <group name="l10n_be_intrastat" string="Belgian Intrastat Settings">
+            <group>
+              <field name="intrastat" invisible="1"/>
+              <group>
+                <field name="intrastat_arrivals"/>
+                <field name="intrastat_dispatches"/>
+              </group>
+              <group>
+                <field name="intrastat_region_id"
+                       domain="[('country_id','=',country_id)]"
+                       attrs="{'required': [('intrastat', '!=', 'exempt')], 'invisible': [('intrastat', '=', 'exempt')]}"/>
+                <field name="intrastat_transport_id"
+                       attrs="{'required': [('intrastat', '=', 'extended')], 'invisible': [('intrastat', '!=', 'extended')]}"/>
+                <field name="intrastat_incoterm_id"
+                       attrs="{'required': [('intrastat', '=', 'extended')], 'invisible': [('intrastat', '!=', 'extended')]}"/>
+              </group>
+            </group>
+          </group>
+        </xpath>
+      </field>
+    </record>
+
+  </data>
+</openerp>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+
+    <record model="ir.ui.view" id="intrastat_result_view">
+      <field name="name">intrastat.result_view_form</field>
+      <field name="model">intrastat.result.view</field>
+      <field name="arch" type="xml">
+        <form string="Intrastat Result View">
+          <group>
+            <field name="note" nolabel="1"/>
+          </group>
+          <footer>
+            <button string="Ok" class="oe_highlight" special="cancel"/>
+          </footer>
+        </form>
+      </field>
+    </record>
+    
+    <!-- Intrastat Transaction Type -->
+
+    <record model="ir.ui.view" id="intrastat_transaction_form">
+      <field name="name">intrastat.transaction_form</field>
+      <field name="model">intrastat.transaction</field>
+      <field name="arch" type="xml">
+        <form string="Intrastat Transaction Type">
+          <group>
+            <field name="code"/>
+            <field name="description"/>
+            <field name="company_id" groups="base.group_multi_company"/>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="intrastat_transaction_tree">
+      <field name="name">intra.view.transaction_tree</field>
+      <field name="model">intrastat.transaction</field>
+      <field name="arch" type="xml">
+        <tree string="Intrastat Transaction Types">
+          <field name="code"/>
+          <field name="description"/>
+          <field name="company_id" groups="base.group_multi_company"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="intrastat_transaction_act" model="ir.actions.act_window">
+      <field name="name">Intrastat Transaction Types</field>
+      <field name="res_model">intrastat.transaction</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="intrastat_transaction_menu"
+        action="intrastat_transaction_act"
+        parent="intrastat_base.menu_intrastat_config_root"/>
+
+
+    <!-- Intrastat Transport Mode -->
+
+    <record model="ir.ui.view" id="intrastat_transport_mode_form">
+      <field name="name">intrastat.transport.mode.form</field>
+      <field name="model">intrastat.transport_mode</field>
+      <field name="arch" type="xml">
+        <form string="Intrastat Transport Mode">
+          <group>
+            <field name="code"/>
+            <field name="name"/>
+            <field name="company_id" groups="base.group_multi_company"/>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="intrastat_transport_mode_tree">
+      <field name="name">intrastat.transport.mode.tree</field>
+      <field name="model">intrastat.transport_mode</field>
+      <field name="arch" type="xml">
+        <tree string="Intrastat Transportat Modes">
+          <field name="code"/>
+          <field name="name"/>
+          <field name="company_id" groups="base.group_multi_company"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="intrastat_transport_act" model="ir.actions.act_window">
+      <field name="name">Intrastat Transportat Modes</field>
+      <field name="res_model">intrastat.transport_mode</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="intrastat_transport_menu"
+        action="intrastat_transport_act"
+        parent="intrastat_base.menu_intrastat_config_root"/>
+
+    <!-- Intrastat Region -->
+
+    <record model="ir.ui.view" id="intrastat_region_form">
+      <field name="name">intrastat.region.form</field>
+      <field name="model">intrastat.region</field>
+      <field name="arch" type="xml">
+        <form string="Intrastat Region">
+          <group>
+            <field name="code"/>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="country_id"/>
+            <field name="company_id" groups="base.group_multi_company"/>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="intrastat_region_tree">
+      <field name="name">intrastat.region.tree</field>
+      <field name="model">intrastat.region</field>
+      <field name="arch" type="xml">
+        <tree string="Intrastat Region">
+          <field name="code"/>
+          <field name="name"/>
+          <field name="description"/>
+          <field name="country_id"/>
+          <field name="company_id" groups="base.group_multi_company"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="intrastat_region_act" model="ir.actions.act_window">
+      <field name="name">Intrastat Regions</field>
+      <field name="res_model">intrastat.region</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="intrastat_region_menu"
+        action="intrastat_region_act"
+        parent="intrastat_base.menu_intrastat_config_root"/>
+
+  </data>
+</openerp>

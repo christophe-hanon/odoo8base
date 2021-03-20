@@ -1,0 +1,1992 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sgc_partner_portal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20170107\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-29 08:40+0000\n"
+"PO-Revision-Date: 2018-01-29 08:40+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sgc_partner_portal
+#: field:res.users,pay_invite_count:0
+msgid "# invites"
+msgstr "# invites"
+
+#. module: sgc_partner_portal
+#: field:res.users,attachment_count:0
+msgid "# of Attachments"
+msgstr "# documenten"
+
+#. module: sgc_partner_portal
+#: field:res.users,sale_order_count:0
+msgid "# of Sales Order"
+msgstr "# of Sales Order"
+
+#. module: sgc_partner_portal
+#: field:res.users,info_layout_count:0
+msgid "# of document layouts"
+msgstr "# of document layouts"
+
+#. module: sgc_partner_portal
+#: field:res.users,followup_count:0
+#: field:res.users,info_req_count:0
+msgid "# of follow-up"
+msgstr "# of follow-up"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/xml/board.xml:19
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,help:sgc_partner_portal.action_res_partner_relation_all
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                    Record and track your partners' relations. Relations may\n"
+"                    be linked to other partners with a type either directly\n"
+"                    or inversely.\n"
+"                </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"Onderhoud de connecties tussen uw relaties. Relaties mogen gekoppeld\n"
+"worden zowel via een normale connectie, als met een omgekeerde\n"
+"connectie.</p>"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,help:sgc_partner_portal.open_board_my_dash_action_std
+msgid "<p class=\"oe_view_nocontent_create\">Click here to add new document</p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">Click here to add new document</p>\n"
+"            "
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:94
+#, python-format
+msgid "A non portal user is already linked to the partner"
+msgstr "Niet-portaal gebruiker bestaat al"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_sgc_portal
+msgid "AB-SGC Portal"
+msgstr "BC Web"
+
+#. module: sgc_partner_portal
+#: field:res.users,abbreviated_name:0
+msgid "Abbreviated name"
+msgstr "Abbreviated name"
+
+#. module: sgc_partner_portal
+#: field:portal.bond_account_move_report,acc_type:0
+msgid "Acc type"
+msgstr "Acc type"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Acceptances"
+msgstr "Oplevering"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_sgc_portal_account
+msgid "Account"
+msgstr "Rekeningeng"
+
+#. module: sgc_partner_portal
+#: field:res.users,periodicity_extracts:0
+msgid "Account extracts periodicity"
+msgstr "Account extracts periodicity"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,active:0
+msgid "Active"
+msgstr "Actief"
+
+#. module: sgc_partner_portal
+#: field:res.users,activity:0
+msgid "Activity"
+msgstr "Activiteit"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/xml/board.xml:59
+#, python-format
+msgid "Add"
+msgstr "Toevoegen"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_add_user
+msgid "Add User"
+msgstr "Gebruiker toevoegen"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/xml/board.xml:56
+#, python-format
+msgid "Add to Dashboard"
+msgstr "Add to Dashboard"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:502
+#: model:ir.ui.menu,name:sgc_partner_portal.portal_add_user_menu
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+#, python-format
+msgid "Add user"
+msgstr "Gebruiker toevoegen"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_additional_names:0
+msgid "Additional names"
+msgstr "Additional names"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_res_partner_relation_all
+msgid "All (non-inverse + inverse) relations between partners"
+msgstr "Alle connecties tussen relaties (gewoon en omgekeerd)."
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,aml_sort_id:0
+msgid "Aml sort id"
+msgstr "Aml sort id"
+
+#. module: sgc_partner_portal
+#: view:partner.account.report:sgc_partner_portal.portal_bond_account_view_search
+#: field:partner.bond.account.report,amount:0
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#: field:portal.bond.move,amount:0
+msgid "Amount"
+msgstr "Bedrag"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+#: field:res.users,analysis_ids:0
+msgid "Analysis"
+msgstr "Voor akkoord"
+
+#. module: sgc_partner_portal
+#: field:res.users,month_am:0
+msgid "Annual meeting month"
+msgstr "Annual meeting month"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:85
+#, python-format
+msgid "Another partner is preferred for this Email %s"
+msgstr "Another partner is preferred for this Email %s"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/js/dashboard.js:135
+#, python-format
+msgid "Are you sure you want to remove this item ?"
+msgstr "Are you sure you want to remove this item ?"
+
+#. module: sgc_partner_portal
+#: field:res.users,attachment_ids:0
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#. module: sgc_partner_portal
+#: view:res.partner:sgc_partner_portal.view_partner_form
+msgid "BCweb"
+msgstr "BC Web"
+
+#. module: sgc_partner_portal
+#: field:res.users,belgian_national_number:0
+msgid "Belgian National Number"
+msgstr "Belgian National Number"
+
+#. module: sgc_partner_portal
+#: field:res.users,belgian_national_nbr_display:0
+msgid "Belgian national number"
+msgstr "Belgian national number"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_board_board
+msgid "Board"
+msgstr "Board"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/bond_bond.py:183
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+#: model:ir.model,name:sgc_partner_portal.model_bond_bond
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_sgc_portal_bond
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#: field:portal.bond.move,bond_id:0
+#, python-format
+msgid "Bond"
+msgstr "Borgstelling"
+
+#. module: sgc_partner_portal
+#: view:portal.bond_account_move_report:sgc_partner_portal.portal_bond_account_move_report_wizard_view_form
+msgid "Bond Account Move Report"
+msgstr "Bond Account Move Report"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move.report.wizard:sgc_partner_portal.portal_bond_move_report_wizard_view_form
+msgid "Bond Move Report"
+msgstr "Neerleggingen en vrijgaven"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,bond_id:0
+#: field:partner.bond.account.report,bond_name:0
+msgid "Bond Nr."
+msgstr "Nr. borgstelling"
+
+#. module: sgc_partner_portal
+#: field:res.users,bond_analysis_id:0
+msgid "Bond analysis"
+msgstr "Bond analysis"
+
+#. module: sgc_partner_portal
+#: field:res.users,bond_fee_pct:0
+msgid "Bond fee %"
+msgstr "Bond fee %"
+
+#. module: sgc_partner_portal
+#: field:res.users,bond_fee_discount_pct:0
+msgid "Bond fee discount %"
+msgstr "Bond fee discount %"
+
+#. module: sgc_partner_portal
+#: field:res.users,bond_fee_penalty_pct:0
+msgid "Bond fee penalty %"
+msgstr "Bond fee penalty %"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_portal_bond_move
+#: view:partner.bond.account.report:sgc_partner_portal.partner_bond_account_report_view_tree
+msgid "Bond move"
+msgstr "Mutatie borgstelling"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_bond_account_move_report
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_bond_move_report
+msgid "Bond move report"
+msgstr "Neerleggingen en vrijgaven"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,bond_name:0
+msgid "Bond name"
+msgstr "Nummer"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.bond_bond_portal_action
+#: field:res.users,bond_closed_ids:0
+#: field:res.users,bond_ids:0
+#: field:res.users,bond_open_ids:0
+#: field:res.users,bond_pending_ids:0
+msgid "Bonds"
+msgstr "Borgstellingen"
+
+#. module: sgc_partner_portal
+#: field:res.users,as_principal_bond_ids:0
+msgid "Bonds As Principal"
+msgstr "Bonds As Principal"
+
+#. module: sgc_partner_portal
+#: field:res.users,as_printing_bond_ids:0
+msgid "Bonds As Printing"
+msgstr "Bonds As Printing"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.portal_bond_account_move_action
+msgid "Bonds move"
+msgstr "Bonds move"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move.report.wizard:sgc_partner_portal.portal_bond_move_report_wizard_view_form
+#: view:portal.bond_account_move_report:sgc_partner_portal.portal_bond_account_move_report_wizard_view_form
+#: view:wizard.change.bond_customerref:sgc_partner_portal.wizard_change_customer_ref_form
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+#: view:wizard.portal.changecurrentcompany:sgc_partner_portal.wizard_portal_change_current_company_form
+#: view:wizard.portal.changecurrentgroup:sgc_partner_portal.wizard_portal_change_current_group_form
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:586
+#, python-format
+msgid "Cannot create user %s - mismatch risk"
+msgstr "Cannot create user %s - mismatch risk"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.changecurrentcompany:sgc_partner_portal.wizard_portal_change_current_company_form
+#: view:wizard.portal.changecurrentgroup:sgc_partner_portal.wizard_portal_change_current_group_form
+msgid "Change"
+msgstr "Wijzigen"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.change_current_company_menu
+msgid "Change Current Company"
+msgstr "Van firma veranderen"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.change_current_group_menu
+msgid "Change Current Group"
+msgstr "Van groep veranderen"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.changecurrentcompany:sgc_partner_portal.wizard_portal_change_current_company_form
+msgid "Change company"
+msgstr "Firma wijzigen"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Change customer reference"
+msgstr "Referentie klant wijzigen"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/bond_bond.py:165
+#, python-format
+msgid "Change data"
+msgstr "Referentie klant"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.changecurrentgroup:sgc_partner_portal.wizard_portal_change_current_group_form
+msgid "Change group"
+msgstr "Groep wijzigen"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.wizard_change_customer_ref_form_action
+msgid "Change reference"
+msgstr "Referentie klant wijzigen"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/xml/board.xml:29
+#, python-format
+msgid "Choose SGC dashboard layout"
+msgstr "Choose SGC dashboard layout"
+
+#. module: sgc_partner_portal
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+#: field:sgc.board,city:0
+msgid "City"
+msgstr "City"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Closed"
+msgstr "Afgesloten"
+
+#. module: sgc_partner_portal
+#: field:res.users,out_inv_comm_algorithm:0
+msgid "Communication Algorithm"
+msgstr "Communication Algorithm"
+
+#. module: sgc_partner_portal
+#: field:res.users,out_inv_comm_type:0
+msgid "Communication Type"
+msgstr "Communication Type"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+msgid "Companies"
+msgstr "Firma's"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:67
+#, python-format
+msgid "Companies cannot become portal user"
+msgstr "Bedrijven kunnen gaan portaalgebruiker worden"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,company_id_0:0
+#: field:wizard.portal.adduser,company_id_1:0
+#: field:wizard.portal.adduser,company_id_10:0
+#: field:wizard.portal.adduser,company_id_11:0
+#: field:wizard.portal.adduser,company_id_12:0
+#: field:wizard.portal.adduser,company_id_13:0
+#: field:wizard.portal.adduser,company_id_14:0
+#: field:wizard.portal.adduser,company_id_15:0
+#: field:wizard.portal.adduser,company_id_16:0
+#: field:wizard.portal.adduser,company_id_17:0
+#: field:wizard.portal.adduser,company_id_18:0
+#: field:wizard.portal.adduser,company_id_19:0
+#: field:wizard.portal.adduser,company_id_2:0
+#: field:wizard.portal.adduser,company_id_3:0
+#: field:wizard.portal.adduser,company_id_4:0
+#: field:wizard.portal.adduser,company_id_5:0
+#: field:wizard.portal.adduser,company_id_6:0
+#: field:wizard.portal.adduser,company_id_7:0
+#: field:wizard.portal.adduser,company_id_8:0
+#: field:wizard.portal.adduser,company_id_9:0
+msgid "Company"
+msgstr "Firma"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,is_company_locked:0
+msgid "Company locked"
+msgstr "Firma alleen lezen "
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,company_name_0:0
+#: field:wizard.portal.adduser,company_name_1:0
+#: field:wizard.portal.adduser,company_name_10:0
+#: field:wizard.portal.adduser,company_name_11:0
+#: field:wizard.portal.adduser,company_name_12:0
+#: field:wizard.portal.adduser,company_name_13:0
+#: field:wizard.portal.adduser,company_name_14:0
+#: field:wizard.portal.adduser,company_name_15:0
+#: field:wizard.portal.adduser,company_name_16:0
+#: field:wizard.portal.adduser,company_name_17:0
+#: field:wizard.portal.adduser,company_name_18:0
+#: field:wizard.portal.adduser,company_name_19:0
+#: field:wizard.portal.adduser,company_name_2:0
+#: field:wizard.portal.adduser,company_name_3:0
+#: field:wizard.portal.adduser,company_name_4:0
+#: field:wizard.portal.adduser,company_name_5:0
+#: field:wizard.portal.adduser,company_name_6:0
+#: field:wizard.portal.adduser,company_name_7:0
+#: field:wizard.portal.adduser,company_name_8:0
+#: field:wizard.portal.adduser,company_name_9:0
+msgid "Company name"
+msgstr "Firmanaam"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,company_checked_0:0
+#: field:wizard.portal.adduser,company_checked_1:0
+#: field:wizard.portal.adduser,company_checked_10:0
+#: field:wizard.portal.adduser,company_checked_11:0
+#: field:wizard.portal.adduser,company_checked_12:0
+#: field:wizard.portal.adduser,company_checked_13:0
+#: field:wizard.portal.adduser,company_checked_14:0
+#: field:wizard.portal.adduser,company_checked_15:0
+#: field:wizard.portal.adduser,company_checked_16:0
+#: field:wizard.portal.adduser,company_checked_17:0
+#: field:wizard.portal.adduser,company_checked_18:0
+#: field:wizard.portal.adduser,company_checked_19:0
+#: field:wizard.portal.adduser,company_checked_2:0
+#: field:wizard.portal.adduser,company_checked_3:0
+#: field:wizard.portal.adduser,company_checked_4:0
+#: field:wizard.portal.adduser,company_checked_5:0
+#: field:wizard.portal.adduser,company_checked_6:0
+#: field:wizard.portal.adduser,company_checked_7:0
+#: field:wizard.portal.adduser,company_checked_8:0
+#: field:wizard.portal.adduser,company_checked_9:0
+msgid "Company selected"
+msgstr "Geselecteerde firma"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,company_visible:0
+msgid "Company visible"
+msgstr "Zichtbare firma"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,company_number_0:0
+#: field:wizard.portal.adduser,company_number_1:0
+#: field:wizard.portal.adduser,company_number_10:0
+#: field:wizard.portal.adduser,company_number_11:0
+#: field:wizard.portal.adduser,company_number_12:0
+#: field:wizard.portal.adduser,company_number_13:0
+#: field:wizard.portal.adduser,company_number_14:0
+#: field:wizard.portal.adduser,company_number_15:0
+#: field:wizard.portal.adduser,company_number_16:0
+#: field:wizard.portal.adduser,company_number_17:0
+#: field:wizard.portal.adduser,company_number_18:0
+#: field:wizard.portal.adduser,company_number_19:0
+#: field:wizard.portal.adduser,company_number_2:0
+#: field:wizard.portal.adduser,company_number_3:0
+#: field:wizard.portal.adduser,company_number_4:0
+#: field:wizard.portal.adduser,company_number_5:0
+#: field:wizard.portal.adduser,company_number_6:0
+#: field:wizard.portal.adduser,company_number_7:0
+#: field:wizard.portal.adduser,company_number_8:0
+#: field:wizard.portal.adduser,company_number_9:0
+msgid "Company_number"
+msgstr "Klantnummer"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/partner_account_report_wizard.py:56
+#, python-format
+msgid "Configuration error - current customer missing accounting info"
+msgstr "Configuration error - current customer missing accounting info"
+
+#. module: sgc_partner_portal
+#: selection:wizard.portal.adduser,state:0
+msgid "Configuring"
+msgstr "Instellen"
+
+#. module: sgc_partner_portal
+#: view:wizard.change.bond_customerref:sgc_partner_portal.wizard_change_customer_ref_form
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#. module: sgc_partner_portal
+#: view:wizard.change.bond_customerref:sgc_partner_portal.wizard_change_customer_ref_form
+msgid "Confirm request"
+msgstr "Confirm request"
+
+#. module: sgc_partner_portal
+#: field:res.users,cooperation_status:0
+msgid "Cooperation status"
+msgstr "Cooperation status"
+
+#. module: sgc_partner_portal
+#: field:sgc.board,country_id:0
+msgid "Country"
+msgstr "Country"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,create_uid:0
+#: field:portal.bond.move,create_uid:0
+#: field:portal.bond.move.report.wizard,create_uid:0
+#: field:portal.bond_account_move_report,create_uid:0
+#: field:wizard.change.bond_customerref,create_uid:0
+#: field:wizard.portal.adduser,create_uid:0
+#: field:wizard.portal.changecurrentcompany,create_uid:0
+#: field:wizard.portal.changecurrentgroup,create_uid:0
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,create_date:0
+#: field:portal.bond.move,create_date:0
+#: field:portal.bond.move.report.wizard,create_date:0
+#: field:portal.bond_account_move_report,create_date:0
+#: field:wizard.change.bond_customerref,create_date:0
+#: field:wizard.portal.adduser,create_date:0
+#: field:wizard.portal.changecurrentcompany,create_date:0
+#: field:wizard.portal.changecurrentgroup,create_date:0
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,credit:0
+msgid "Credit"
+msgstr "Bedrag neerlegging"
+
+#. module: sgc_partner_portal
+#: help:partner.bond.account.report,cumulative_balance:0
+msgid "Cumulative Balance - Customer Perspective"
+msgstr "Cumulative Balance - Customer Perspective"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,cumulative_balance:0
+msgid "Cumulative balance"
+msgstr "Cumulative balance"
+
+#. module: sgc_partner_portal
+#: field:res.users,currency_id:0
+#: field:sgc.board,currency_id:0
+msgid "Currency"
+msgstr "Currency"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/partner_bond_account_report_xls.py:172
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_portal_current_account
+#: field:res.users,current_account_id:0
+#: field:sgc.board,current_account_balance:0
+#, python-format
+msgid "Current Account"
+msgstr "Rekening courant"
+
+#. module: sgc_partner_portal
+#: field:res.users,current_account_balance:0
+msgid "Current Account Balance"
+msgstr "Rekening courant"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,current_page:0
+msgid "Current Page"
+msgstr "Pagina"
+
+#. module: sgc_partner_portal
+#: field:res.users,current_customer_id:0
+msgid "Current customer"
+msgstr "Huidige klant"
+
+#. module: sgc_partner_portal
+#: field:sgc.board,current_customer_id:0
+msgid "Current customer id"
+msgstr "Huidig identificatienummer klant"
+
+#. module: sgc_partner_portal
+#: field:res.users,current_group_id:0
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+msgid "Current group"
+msgstr "Huidige groep"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,current_group_id:0
+msgid "Current_group"
+msgstr "Current_group"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,partner_id:0
+msgid "Customer"
+msgstr "Klant"
+
+#. module: sgc_partner_portal
+#: field:sgc.board,current_customer_name:0
+msgid "Customer name"
+msgstr "Firma"
+
+#. module: sgc_partner_portal
+#: field:wizard.change.bond_customerref,portal_customer_note:0
+msgid "Customer note"
+msgstr "Nota klant"
+
+#. module: sgc_partner_portal
+#: field:res.users,cust_display_nbr:0
+#: field:res.users,customer_number:0
+#: field:sgc.board,current_customer_number:0
+msgid "Customer number"
+msgstr "Klantnummer"
+
+#. module: sgc_partner_portal
+#: field:res.users,customer_or_prospect_number:0
+msgid "Customer number or prospect if no customer number"
+msgstr "Customer number or prospect if no customer number"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+#: field:wizard.change.bond_customerref,portal_customer_ref:0
+msgid "Customer reference"
+msgstr "Referentie klant"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+#: field:res.users,principal_dco_id:0
+msgid "DCO"
+msgstr "DCK"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,date:0
+#: field:portal.bond.move,move_date:0
+msgid "Date"
+msgstr "Datum"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,debit:0
+msgid "Debit"
+msgstr "Bedrag vrijgave"
+
+#. module: sgc_partner_portal
+#: help:res.users,property_in_inv_acc:0
+msgid "Default Account on incoming Invoices."
+msgstr "Default Account on incoming Invoices."
+
+#. module: sgc_partner_portal
+#: help:res.users,property_out_inv_acc:0
+msgid "Default Account on outgoing Invoices."
+msgstr "Default Account on outgoing Invoices."
+
+#. module: sgc_partner_portal
+#: field:res.users,guarantee_interest_default:0
+msgid "Default guarantee interest"
+msgstr "Algemeen % intresten op garanties"
+
+#. module: sgc_partner_portal
+#: field:res.users,default_guarantee_rate:0
+msgid "Default guarantee rate"
+msgstr "Algemeen % vereiste garanties"
+
+#. module: sgc_partner_portal
+#: field:res.users,tax_levy_default:0
+msgid "Default tax levy"
+msgstr "Algemeen % roerende voorheffing"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+msgid "Delete"
+msgstr "Verwijder"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_delete_user
+msgid "Delete User"
+msgstr "Verwijder gebruiker"
+
+#. module: sgc_partner_portal
+#: selection:wizard.portal.adduser,state:0
+msgid "Deleting"
+msgstr "Verwijderen"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/portal_bond_account_move_report.py:167
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#, python-format
+msgid "Deposit"
+msgstr "Neerlegging"
+
+#. module: sgc_partner_portal
+#: field:res.users,deposit_release_ids:0
+msgid "Deposits - Releases"
+msgstr "Neerleggingen en vrijgaven"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.portal_bond_move_action
+#: model:ir.ui.menu,name:sgc_partner_portal.portal_bond_account_move_menu
+msgid "Deposits and Releases"
+msgstr "Bewegingen borgstellingen"
+
+#. module: sgc_partner_portal
+#: view:partner.account.report:sgc_partner_portal.portal_bond_account_view_search
+#: field:partner.bond.account.report,description:0
+#: field:partner.bond.account.report,name:0
+msgid "Description"
+msgstr "Mutatie"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_descr_cli:0
+msgid "Description Client"
+msgstr "Omschrijving klant"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_descr_princ:0
+msgid "Description Principal"
+msgstr "Omschrijving bouwheer"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,display_name:0
+#: field:partner.portal.logic,display_name:0
+#: field:portal.bond.move,display_name:0
+#: field:portal.bond.move.report.wizard,display_name:0
+#: field:portal.bond_account_move_report,display_name:0
+#: field:sgc.board,display_name:0
+#: field:wizard.change.bond_customerref,display_name:0
+#: field:wizard.portal.adduser,display_name:0
+#: field:wizard.portal.changecurrentcompany,display_name:0
+#: field:wizard.portal.changecurrentgroup,display_name:0
+msgid "Display Name"
+msgstr "Volledige naam"
+
+#. module: sgc_partner_portal
+#: field:res.users,info_layout_ids:0
+msgid "Document layout"
+msgstr "Document layout"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Draft"
+msgstr "Concept"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:759
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:765
+#, python-format
+msgid "E-mail existing - too much records"
+msgstr "E-mail existing - too much records"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/js/dashboard.js:91
+#, python-format
+msgid "Edit Layout"
+msgstr "Edit Layout"
+
+#. module: sgc_partner_portal
+#: field:res.users,effective_cover_prct:0
+msgid "Effective cover %"
+msgstr "Reële dekking %"
+
+#. module: sgc_partner_portal
+#: field:res.users,effective_cover_prct_with_CA:0
+msgid "Effective cover with current account %"
+msgstr "Reële dekking incl. r/c %"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:559
+#, python-format
+msgid "Email %s already in database and duplicated !"
+msgstr "Email %s already in database and duplicated !"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:80
+#, python-format
+msgid "Email %s is not unique in partners"
+msgstr "Email %s is not unique in partners"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_mail_thread
+msgid "Email Thread"
+msgstr "E-mail discussie"
+
+#. module: sgc_partner_portal
+#: field:portal.bond_account_move_report,date_end:0
+msgid "End Date"
+msgstr "Tot"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,error:0
+msgid "Error"
+msgstr "Fout"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:33
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:38
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:61
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:66
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:79
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:84
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:93
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:99
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:113
+#: code:addons/sgc_partner_portal/wizard/portal_bond_account_move_report.py:183
+#: code:addons/sgc_partner_portal/wizard/portal_bond_move_report.py:88
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:541
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:558
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:564
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:585
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:850
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_company.py:25
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_company.py:121
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_group.py:27
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_group.py:75
+#, python-format
+msgid "Error !"
+msgstr "Fout !"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,is_error_visible:0
+msgid "Error visible"
+msgstr "Fout zichtbaar"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Estimated"
+msgstr "Verwacht"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.report.xml,name:sgc_partner_portal.partner_bond_account_report_action_report_xls
+msgid "Export Selected Bond Moves"
+msgstr "Mutaties borgstellingen exporteren"
+
+#. module: sgc_partner_portal
+#: field:res.users,fax2:0
+msgid "Fax 2"
+msgstr "Fax 2"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Final"
+msgstr "Volledig"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/portal_bond_account_move_report.py:165
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#, python-format
+msgid "Final release"
+msgstr "Volledige vrijgave"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+msgid "Finish"
+msgstr "Klaar"
+
+#. module: sgc_partner_portal
+#: field:res.users,month_annual_review:0
+msgid "Fiscal closing month"
+msgstr "Maand einde boekjaar"
+
+#. module: sgc_partner_portal
+#: selection:wizard.portal.adduser,state:0
+msgid "Found"
+msgstr "Gevonden"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,page_from:0
+msgid "From"
+msgstr "Van"
+
+#. module: sgc_partner_portal
+#: field:res.users,address_letter:0
+msgid "Full address"
+msgstr "Volledig adres"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,full_name:0
+msgid "Full name"
+msgstr "Volledige naam"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,is_full_name_locked:0
+#: field:wizard.portal.adduser,is_full_name_visible:0
+msgid "Full name visible"
+msgstr "Volledige naam zichtbaar"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#: view:res.partner.relation.all:sgc_partner_portal.search_res_partner_relation_all
+msgid "Group By"
+msgstr "Groepeer op"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/partner_bond_account_report_xls.py:174
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_portal_guarantee_account
+#: field:res.users,guarantee_account_id:0
+#: field:sgc.board,guarantee_account_balance:0
+#, python-format
+msgid "Guarantee Account"
+msgstr "Rekening garanties"
+
+#. module: sgc_partner_portal
+#: field:res.users,guarantee_account_balance:0
+msgid "Guarantee Account Balance"
+msgstr "Rekening garanties"
+
+#. module: sgc_partner_portal
+#: field:res.users,guarantee_before_deposit:0
+msgid "Guarantee before deposit"
+msgstr "Voorafgaandelijke garantie"
+
+#. module: sgc_partner_portal
+#: field:res.users,guarantee_interest_pct:0
+msgid "Guarantee interest %"
+msgstr "Interesten op garanties %"
+
+#. module: sgc_partner_portal
+#: help:res.users,guarantee_interest_default:0
+msgid "Guarantee interest % equal to company default"
+msgstr "Interesten op garanties % gelijk aan algemeen %"
+
+#. module: sgc_partner_portal
+#: field:res.users,has_bond_deposit_fee:0
+msgid "Has bond deposit fees"
+msgstr "Neerleggingskosten aanrekenen"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,id:0
+#: field:partner.portal.logic,id:0
+#: field:portal.bond.move,id:0
+#: field:portal.bond.move.report.wizard,id:0
+#: field:portal.bond_account_move_report,id:0
+#: field:sgc.board,id:0
+#: field:wizard.change.bond_customerref,id:0
+#: field:wizard.portal.adduser,id:0
+#: field:wizard.portal.changecurrentcompany,id:0
+#: field:wizard.portal.changecurrentgroup,id:0
+msgid "ID"
+msgstr "Gebruikersnaam"
+
+#. module: sgc_partner_portal
+#: selection:wizard.portal.adduser,state:0
+msgid "Identified"
+msgstr "Geïdentificeerd"
+
+#. module: sgc_partner_portal
+#: help:wizard.portal.adduser,lang:0
+msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+msgstr "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,import_id:0
+msgid "Import record line"
+msgstr "Import record line"
+
+#. module: sgc_partner_portal
+#: field:res.users,property_in_inv_acc:0
+msgid "Incoming Invoice Account"
+msgstr "Incoming Invoice Account"
+
+#. module: sgc_partner_portal
+#: selection:wizard.portal.adduser,state:0
+msgid "Incomplete"
+msgstr "Onvolledig"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/res_partner_relation_all.py:59
+#: code:addons/sgc_partner_portal/models/res_partner_relation_all.py:74
+#, python-format
+msgid "Incorrect user - contact system admin"
+msgstr "Onjuiste gebruiker - bell systeem admin"
+
+#. module: sgc_partner_portal
+#: field:res.users,info_req_ids:0
+msgid "Information requests"
+msgstr "Vragen naar informatie"
+
+#. module: sgc_partner_portal
+#: selection:wizard.portal.adduser,state:0
+msgid "Init"
+msgstr "Start"
+
+#. module: sgc_partner_portal
+#: field:res.users,is_sgc_administrator:0
+msgid "Is SGC administrator"
+msgstr "Is bestuurder bij AB-SGC"
+
+#. module: sgc_partner_portal
+#: field:res.users,is_sgc_employee:0
+msgid "Is SGC employee"
+msgstr "Is werknemer bij AB-SGC"
+
+#. module: sgc_partner_portal
+#: field:res.users,is_printing_client:0
+msgid "Is a Printing Client"
+msgstr "Is tijdelijke klant"
+
+#. module: sgc_partner_portal
+#: field:res.users,is_tta:0
+msgid "Is a TTA"
+msgstr "Is een THV"
+
+#. module: sgc_partner_portal
+#: field:res.users,is_principal:0
+msgid "Is a principal"
+msgstr "Is bouwheer"
+
+#. module: sgc_partner_portal
+#: field:res.users,is_tenant:0
+msgid "Is a tenant"
+msgstr "Is huurder"
+
+#. module: sgc_partner_portal
+#: field:res.partner,is_portal_super_user:0
+#: field:res.users,is_portal_super_user:0
+msgid "Is portal super_user"
+msgstr "Is hoofdgebruiker portaal"
+
+#. module: sgc_partner_portal
+#: field:res.partner,is_portal_user:0
+#: field:res.users,is_portal_user:0
+msgid "Is portal user"
+msgstr "Is gebruiker portaal"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,account_move_id:0
+msgid "Journal Entry"
+msgstr "Journaalboeking"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,aml_id:0
+msgid "Journal Item"
+msgstr "Journal Item"
+
+#. module: sgc_partner_portal
+#: field:portal.bond_account_move_report,lang:0
+#: field:wizard.portal.adduser,lang:0
+msgid "Language"
+msgstr "Taal"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,__last_update:0
+#: field:partner.portal.logic,__last_update:0
+#: field:portal.bond.move,__last_update:0
+#: field:portal.bond.move.report.wizard,__last_update:0
+#: field:portal.bond_account_move_report,__last_update:0
+#: field:sgc.board,__last_update:0
+#: field:wizard.change.bond_customerref,__last_update:0
+#: field:wizard.portal.adduser,__last_update:0
+#: field:wizard.portal.changecurrentcompany,__last_update:0
+#: field:wizard.portal.changecurrentgroup,__last_update:0
+msgid "Last Modified on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,write_uid:0
+#: field:portal.bond.move,write_uid:0
+#: field:portal.bond.move.report.wizard,write_uid:0
+#: field:portal.bond_account_move_report,write_uid:0
+#: field:wizard.change.bond_customerref,write_uid:0
+#: field:wizard.portal.adduser,write_uid:0
+#: field:wizard.portal.changecurrentcompany,write_uid:0
+#: field:wizard.portal.changecurrentgroup,write_uid:0
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,write_date:0
+#: field:portal.bond.move,write_date:0
+#: field:portal.bond.move.report.wizard,write_date:0
+#: field:portal.bond_account_move_report,write_date:0
+#: field:wizard.change.bond_customerref,write_date:0
+#: field:wizard.portal.adduser,write_date:0
+#: field:wizard.portal.changecurrentcompany,write_date:0
+#: field:wizard.portal.changecurrentgroup,write_date:0
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: sgc_partner_portal
+#: field:res.users,last_account_statement_report:0
+msgid "Last account statement run"
+msgstr "Last account statement run"
+
+#. module: sgc_partner_portal
+#: field:res.users,last_fin_sit:0
+msgid "Last financial situation"
+msgstr "Laatste financiële status"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_change_current_company
+msgid "Launch Change current Company"
+msgstr "Van firma veranderen"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_change_current_group
+msgid "Launch Change current Group"
+msgstr "Kies hier de te beheren bedrijvengroep"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_ca_account_wizard
+msgid "Launch wizard current account report"
+msgstr "Detail rekening courant tonen"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_guarantee_account_wizard
+msgid "Launch wizard guarantee account report"
+msgstr "Detail garanties tonen"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.launch_portal_share_account_wizard
+msgid "Launch wizard share account report"
+msgstr "Detail maatschappelijcke aandelen tonen"
+
+#. module: sgc_partner_portal
+#: field:res.users,legal_situation:0
+msgid "Legal situation"
+msgstr "Rechtstoestand"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Linked bonds"
+msgstr "Verbonden borgstellingen"
+
+#. module: sgc_partner_portal
+#: field:res.partner.relation,login_name:0
+#: field:res.partner.relation.all,login_name:0
+msgid "Login"
+msgstr "Login"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:693
+#, python-format
+msgid "Login - e-mail is not well formatted"
+msgstr "Login - E-mail is niet goed geformatteerd"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:706
+#, python-format
+msgid "Login already used - system corrupted"
+msgstr "Login al gebruikt - systeem beschadigd"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,is_login_locked:0
+msgid "Login locked"
+msgstr "Login geblokkeerd"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:686
+#, python-format
+msgid "Login missing"
+msgstr "Login ontbreekt"
+
+#. module: sgc_partner_portal
+#: view:res.partner.relation.all:sgc_partner_portal.tree_res_partner_relation_all
+msgid "Manage"
+msgstr "Beheer"
+
+#. module: sgc_partner_portal
+#: field:res.partner,may_become_portal_user:0
+#: field:res.users,may_become_portal_user:0
+msgid "May become a portal user"
+msgstr "Contact voor portaalgebruiker"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Moves"
+msgstr "Bewegingen"
+
+#. module: sgc_partner_portal
+#: model:res.groups,name:sgc_partner_portal.group_portal_super_multi
+msgid "Multi Portal Super User"
+msgstr "Multi Portal Super User"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_bond_tree
+msgid "My bonds"
+msgstr "Mijn borgstellingen"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+msgid "Name"
+msgstr "Naam"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,is_new_user:0
+msgid "New user"
+msgstr "Nieuwe gebruiker"
+
+#. module: sgc_partner_portal
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+msgid "Next"
+msgstr "Volgende"
+
+#. module: sgc_partner_portal
+#: field:res.users,next_annual_review:0
+msgid "Next annual review"
+msgstr "Volgend einde boekjaar klant"
+
+#. module: sgc_partner_portal
+#: field:res.users,as_principal_bonds_count:0
+msgid "Number of bonds as principal"
+msgstr "Aantal borgen als bouwheer"
+
+#. module: sgc_partner_portal
+#: field:res.users,as_printing_bonds_count:0
+msgid "Number of bonds as printing client"
+msgstr "Aantal borgen als tijdelijke klant"
+
+#. module: sgc_partner_portal
+#: field:res.users,closed_bonds_count:0
+msgid "Number of closed bonds"
+msgstr "Aantal afgesloten borgstellingen"
+
+#. module: sgc_partner_portal
+#: field:res.users,deposit_releases_count:0
+msgid "Number of deposit releases"
+msgstr "Aantal beweginen borgstellingen"
+
+#. module: sgc_partner_portal
+#: field:res.users,open_bonds_nbr:0
+msgid "Number of ongoing bonds"
+msgstr "Aantal open borgstellingen"
+
+#. module: sgc_partner_portal
+#: field:res.users,pending_bonds_count:0
+msgid "Number of pending bonds"
+msgstr "Number of pending bonds"
+
+#. module: sgc_partner_portal
+#: field:res.users,shares:0
+msgid "Number of shares"
+msgstr "Aantal aandelen"
+
+#. module: sgc_partner_portal
+#: field:res.users,ga_vote_number:0
+msgid "Number of votes"
+msgstr "Aantal stemmen"
+
+#. module: sgc_partner_portal
+#: model:res.groups,name:sgc_partner_portal.group_portal_no_one
+msgid "Old portal"
+msgstr "Oude portaal"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Ongoing"
+msgstr "Open"
+
+#. module: sgc_partner_portal
+#: field:sgc.board,progress_amount:0
+msgid "Open Bonds Balance"
+msgstr "Openstaand saldo borgstellingen"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+msgid "Other"
+msgstr "Andere"
+
+#. module: sgc_partner_portal
+#: field:res.users,property_out_inv_acc:0
+msgid "Outgoing Invoice Account"
+msgstr "Outgoing Invoice Account"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "PORTAL Bond"
+msgstr "PORTAL Bond"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/portal_bond_account_move_report.py:166
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#, python-format
+msgid "Partial release"
+msgstr "Gedeeltelijke vrijgave"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_res_partner
+msgid "Partner"
+msgstr "Relatie"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_partner_bond_account_report
+msgid "Partner Account Entries Report"
+msgstr "Partner Account Entries Report"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_partner_account_report_wizard
+#: model:ir.model,name:sgc_partner_portal.model_portal_bond_move_report_wizard
+msgid "Partner Account Entries Report Wizard"
+msgstr "Partner Account Entries Report Wizard"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_portal_bond_account_move_report
+#: model:ir.model,name:sgc_partner_portal.model_portal_bond_acount_move_report
+#: model:ir.model,name:sgc_partner_portal.model_portal_bond_acount_move_report_wizard
+msgid "Partner Bond Move Report Wizard"
+msgstr "Partner Bond Move Report Wizard"
+
+#. module: sgc_partner_portal
+#: view:res.partner.relation.all:sgc_partner_portal.tree_res_partner_relation_all
+msgid "Partner Relations"
+msgstr "Verwantschappen"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_partner_portal_logic
+msgid "Partner portal based on relation"
+msgstr "Partner portal based on relation"
+
+#. module: sgc_partner_portal
+#: model:ir.model,name:sgc_partner_portal.model_res_partner_relation
+msgid "Partner relation"
+msgstr "Connectie"
+
+#. module: sgc_partner_portal
+#: field:res.users,payref:0
+msgid "Payment Reference"
+msgstr "Betaalreferentie"
+
+#. module: sgc_partner_portal
+#: field:res.users,pi_ids:0
+msgid "Payment invitations"
+msgstr "Betaaluitnodigingen"
+
+#. module: sgc_partner_portal
+#: field:res.users,open_pi_ids:0
+msgid "Payment invitations open"
+msgstr "Open betaaluitnodigingen"
+
+#. module: sgc_partner_portal
+#: field:res.users,phone2:0
+msgid "Phone 2"
+msgstr "Tel 2"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/partner_account_report_wizard.py:54
+#, python-format
+msgid "Please select a customer before to proceed"
+msgstr "Gelieve eerst een firma te selecteren"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:41
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:482
+#, python-format
+msgid "Please select a group before to proceed"
+msgstr "Gelieve eerst een groep te selecteren"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_sgc_portal_mgt
+msgid "Portal"
+msgstr "Portaal"
+
+#. module: sgc_partner_portal
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_sgc_portal_admin
+msgid "Portal Admin"
+msgstr "Beheer portaal"
+
+#. module: sgc_partner_portal
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+msgid "Portal Dashboard"
+msgstr "Boordtabel portaal"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:851
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_company.py:26
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_group.py:28
+#, python-format
+msgid "Portal ERROR - user has no partner"
+msgstr "Portal ERROR - user has no partner"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/portal_bond_account_move_report.py:184
+#: code:addons/sgc_partner_portal/wizard/portal_bond_move_report.py:89
+#, python-format
+msgid "Portal ERROR - user has no selected current customer "
+msgstr "Portal ERROR - user has no selected current customer "
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_group.py:76
+#, python-format
+msgid "Portal SECURITY ERROR - super user %s %s try to jump out"
+msgstr "Portaal veiligheidsprobleem  - super user %s %s probeert te ontsnappen"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_change_current_company.py:122
+#, python-format
+msgid "Portal SECURITY ERROR - user %s %s try to jump out"
+msgstr "Portal SECURITY ERROR - user %s %s try to jump out"
+
+#. module: sgc_partner_portal
+#: model:res.groups,name:sgc_partner_portal.group_portal_super
+msgid "Portal Super User"
+msgstr "Portaal super-user"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.open_board_my_dash_action_std
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_board_portal_dash_std
+msgid "Portal status"
+msgstr "Boordtabel"
+
+#. module: sgc_partner_portal
+#: model:res.groups,comment:sgc_partner_portal.group_portal_super
+msgid "Portal super users are portal users with extra access rights (such as record rules and restricted menus).\n"
+"                They usually do not belong to the usual Odoo groups."
+msgstr "Portal super users are portal users with extra access rights (such as record rules and restricted menus).\n"
+"                They usually do not belong to the usual Odoo groups."
+
+#. module: sgc_partner_portal
+#: model:res.groups,comment:sgc_partner_portal.group_portal_super_multi
+msgid "Portal super users are portal users with extra access rights + switching group (such as record rules and restricted menus).\n"
+"                They usually do not belong to the usual Odoo groups."
+msgstr "Portal super users are portal users with extra access rights + switching group (such as record rules and restricted menus).\n"
+"                They usually do not belong to the usual Odoo groups."
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:39
+#, python-format
+msgid "Portal user creation Error - cannot be a company"
+msgstr "Portaal gebruikerscreatie FOUT - kan geen bedrijf zijn"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:34
+#, python-format
+msgid "Portal user creation Error - no e-mail"
+msgstr "Portaal gebruikerscreatie FOUT - ontbrekende e-mail"
+
+#. module: sgc_partner_portal
+#: field:res.partner,portal_user_id:0
+#: field:res.users,portal_user_id:0
+msgid "Portal user id"
+msgstr "Id portaalgebruiker"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+#: field:bond.bond,portal_computed_principal_name:0
+#: field:bond.bond,principal_name:0
+#: field:portal.bond.move,principal_id:0
+msgid "Principal"
+msgstr "Bouwheer"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_address_letter:0
+msgid "Principal Full address"
+msgstr "Adres bouwheer"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_court:0
+msgid "Principal court location"
+msgstr "Rechtbank bouwheer"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_number:0
+msgid "Principal number"
+msgstr "Nummer bouwheer"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_release_type:0
+msgid "Principal release type"
+msgstr "Principal release type"
+
+#. module: sgc_partner_portal
+#: field:res.users,principal_type:0
+msgid "Principal type"
+msgstr "Principal type"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Prior"
+msgstr "Voorafbetaling"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,product_id:0
+msgid "Product"
+msgstr "Product"
+
+#. module: sgc_partner_portal
+#: field:res.users,as_principal_progress_amount:0
+#: field:res.users,as_printing_progress_amount:0
+#: field:res.users,progress_amount:0
+msgid "Progress amount"
+msgstr "Openstaand saldo borgstellingen"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Project description"
+msgstr "Beschrijving werf"
+
+#. module: sgc_partner_portal
+#: field:res.users,prospect_number:0
+msgid "Prospect number"
+msgstr "Nummer prospect"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Provisional"
+msgstr "Voorlopig"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,quantity:0
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: sgc_partner_portal
+#: field:partner.bond.account.report,code:0
+msgid "Reference code"
+msgstr "Reference code"
+
+#. module: sgc_partner_portal
+#: field:res.users,registry_number:0
+msgid "Registered Company Number"
+msgstr "Ondernemingsnummer"
+
+#. module: sgc_partner_portal
+#: field:res.users,registry_authority:0
+msgid "Registry Authority"
+msgstr "Registry Authority"
+
+#. module: sgc_partner_portal
+#: view:res.partner.relation.all:sgc_partner_portal.search_res_partner_relation_all
+msgid "Relationship Type"
+msgstr "Aard verwantschap"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Releases"
+msgstr "Vrijgaven"
+
+#. module: sgc_partner_portal
+#: view:res.partner.relation.all:sgc_partner_portal.tree_res_partner_relation_all
+msgid "Remove"
+msgstr "Verwijder"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Requested"
+msgstr "Gevraagd"
+
+#. module: sgc_partner_portal
+#: field:res.users,sgc_mandate:0
+msgid "SGC Mandate"
+msgstr "Mandaat AB-SGC"
+
+#. module: sgc_partner_portal
+#: field:res.users,sale_order_ids:0
+msgid "Sales Order"
+msgstr "Sales Order"
+
+#. module: sgc_partner_portal
+#: view:res.partner.relation.all:sgc_partner_portal.search_res_partner_relation_all
+msgid "Search Relations"
+msgstr "Zoek connecties"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Search bonds"
+msgstr "Zoek borgstellingen"
+
+#. module: sgc_partner_portal
+#: view:partner.account.report:sgc_partner_portal.portal_bond_account_view_search
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+msgid "Search bonds moves"
+msgstr "Zoek bewegingen"
+
+#. module: sgc_partner_portal
+#: help:res.users,out_inv_comm_algorithm:0
+msgid "Select Algorithm to generate the Structured Communication on Outgoing Invoices."
+msgstr "Select Algorithm to generate the Structured Communication on Outgoing Invoices."
+
+#. module: sgc_partner_portal
+#: help:res.users,out_inv_comm_type:0
+msgid "Select Default Communication Type for Outgoing Invoices."
+msgstr "Select Default Communication Type for Outgoing Invoices."
+
+#. module: sgc_partner_portal
+#: view:res.partner:sgc_partner_portal.view_partner_form
+msgid "Set as current customer in portal"
+msgstr "Activeer als firma in portaal"
+
+#. module: sgc_partner_portal
+#: view:res.partner:sgc_partner_portal.view_partner_form
+msgid "Set as current group in portal"
+msgstr "Activeer als groep in portaal"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/partner_bond_account_report_xls.py:176
+#: model:ir.ui.menu,name:sgc_partner_portal.menu_portal_share_account
+#: field:res.users,share_account_id:0
+#: field:sgc.board,share_account_balance:0
+#, python-format
+msgid "Share Account"
+msgstr "Maatschappelijke aandelen"
+
+#. module: sgc_partner_portal
+#: field:res.users,share_account_balance:0
+msgid "Share Account Balance"
+msgstr "Maatschappelijke aandelen"
+
+#. module: sgc_partner_portal
+#: field:res.users,share_move_ids:0
+msgid "Shares moves"
+msgstr "Shares moves"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,short_description:0
+msgid "Short Description"
+msgstr "Omschrijving werf"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_portal_view_tree
+msgid "Short description"
+msgstr "Omschrijving werf"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_portal_view_tree
+msgid "Show bond"
+msgstr "Toon borgstelling"
+
+#. module: sgc_partner_portal
+#: field:res.users,signature_owner1:0
+msgid "Signature Owner 1"
+msgstr "Signature Owner 1"
+
+#. module: sgc_partner_portal
+#: field:res.users,signature_owner2:0
+msgid "Signature Owner 2"
+msgstr "Signature Owner 2"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:809
+#, python-format
+msgid "Sorry, could not create user"
+msgstr "Sorry, kon gebruiker niet aanmaken"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,source:0
+msgid "Source"
+msgstr "Source"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move.report.wizard,date_start:0
+#: field:portal.bond_account_move_report,date_start:0
+msgid "Start Date"
+msgstr "Vanaf"
+
+#. module: sgc_partner_portal
+#: field:res.users,state_tta:0
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+#: field:sgc.board,state_id:0
+#: field:wizard.portal.adduser,state:0
+msgid "State"
+msgstr "Status"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Status"
+msgstr "Status"
+
+#. module: sgc_partner_portal
+#: field:res.users,pay_invite_total:0
+msgid "Still to pay"
+msgstr "Still to pay"
+
+#. module: sgc_partner_portal
+#: field:sgc.board,street:0
+msgid "Street"
+msgstr "Street"
+
+#. module: sgc_partner_portal
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+msgid "Street..."
+msgstr "Street..."
+
+#. module: sgc_partner_portal
+#: field:sgc.board,street2:0
+msgid "Street2"
+msgstr "Street2"
+
+#. module: sgc_partner_portal
+#: field:res.users,supplier_direct_debit:0
+msgid "Supplier Direct Debit"
+msgstr "Supplier Direct Debit"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_search
+msgid "Suspended"
+msgstr "Suspended"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.changecurrentcompany,possible_company_ids:0
+#: field:wizard.portal.changecurrentgroup,possible_group_ids:0
+msgid "Switch to"
+msgstr "Firma"
+
+#. module: sgc_partner_portal
+#: field:res.users,relations_tta_member_count:0
+msgid "TTA member Count"
+msgstr "Aantal leden THV"
+
+#. module: sgc_partner_portal
+#: field:res.users,relations_tta_participation_count:0
+msgid "TTA participation Count"
+msgstr "TTA participation Count"
+
+#. module: sgc_partner_portal
+#: field:res.users,tax_levy_pct:0
+msgid "Tax levy %"
+msgstr "Roerende voorheffing %"
+
+#. module: sgc_partner_portal
+#: help:res.users,tax_levy_default:0
+msgid "Tax levy % equal to company default"
+msgstr "Roerende voorheffing % zoals algemeen %"
+
+#. module: sgc_partner_portal
+#: field:res.users,tech_reserve:0
+msgid "Technical reserve"
+msgstr "In technische reserve"
+
+#. module: sgc_partner_portal
+#: help:res.users,supplier_direct_debit:0
+msgid "The 'Supplier Direct Debit' flag will be set by default on Supplier Invoices."
+msgstr "The 'Supplier Direct Debit' flag will be set by default on Supplier Invoices."
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:565
+#, python-format
+msgid "The login %s - exist - partner mis configuration"
+msgstr "The login %s - exist - partner mis configuration"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:114
+#, python-format
+msgid "The login %s is already used and point to another partner"
+msgstr "De login %s is al gebruik en wijst op een andere partner"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:100
+#: code:addons/sgc_partner_portal/wizard/wizard_add_portal_user.py:542
+#, python-format
+msgid "The login %s is already used multipletimes for users"
+msgstr "De login %s wordt meerdere keren gebruikt"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/res_partner.py:132
+#, python-format
+msgid "The partner is already referenced by a user !"
+msgstr "The partner is already referenced by a user !"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/partner_portal_logic.py:62
+#, python-format
+msgid "This partner is not accepted as a portal user"
+msgstr "This partner is not accepted as a portal user"
+
+#. module: sgc_partner_portal
+#: field:res.users,title_domain:0
+msgid "Title Domain"
+msgstr "Title Domain"
+
+#. module: sgc_partner_portal
+#. openerp-web
+#: code:addons/sgc_partner_portal/static/src/xml/board.xml:58
+#, python-format
+msgid "Title of new dashboard item"
+msgstr "Title of new dashboard item"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,page_to:0
+msgid "To"
+msgstr "Tot"
+
+#. module: sgc_partner_portal
+#: field:res.users,total_bonds_prct:0
+msgid "Total % (vs capital)"
+msgstr "Totaal % (vs kapitaal)"
+
+#. module: sgc_partner_portal
+#: view:partner.account.report:sgc_partner_portal.portal_bond_account_move_view_tree
+msgid "Total Credit"
+msgstr "Total Credit"
+
+#. module: sgc_partner_portal
+#: view:partner.account.report:sgc_partner_portal.portal_bond_account_move_view_tree
+msgid "Total Debit"
+msgstr "Totaal Debet"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,page_total:0
+msgid "Total lines"
+msgstr "Total lines"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/wizard/partner_bond_account_report_xls.py:178
+#: code:addons/sgc_partner_portal/wizard/portal_bond_account_move_report.py:200
+#: code:addons/sgc_partner_portal/wizard/portal_bond_move_report.py:100
+#, python-format
+msgid "Transactions"
+msgstr "Bewegingen"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move:sgc_partner_portal.portal_bond_view_search
+#: field:portal.bond.move,type:0
+msgid "Type"
+msgstr "Type"
+
+#. module: sgc_partner_portal
+#: field:res.users,shares_to_buy:0
+msgid "Unpaid social parts"
+msgstr "Te betalen aandelen"
+
+#. module: sgc_partner_portal
+#: help:res.users,registry_number:0
+msgid "Use this field to register the unique number attributed by the authorities to the legal entity of this partner.\n"
+"e.g KBO/BCE number for Belgium."
+msgstr "Use this field to register the unique number attributed by the authorities to the legal entity of this partner.\n"
+"e.g KBO/BCE number for Belgium."
+
+#. module: sgc_partner_portal
+#: model:res.groups,comment:sgc_partner_portal.group_portal_no_one
+msgid "Used to hide portal"
+msgstr "Used to hide portal"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,user_id:0
+msgid "User id"
+msgstr "Id gebruiker"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,login:0
+msgid "User login"
+msgstr "Login"
+
+#. module: sgc_partner_portal
+#: code:addons/sgc_partner_portal/models/res_partner_relation_all.py:105
+#: view:res.partner.relation.all:sgc_partner_portal.tree_res_partner_relation_all
+#: field:wizard.portal.adduser,user_name:0
+#, python-format
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#. module: sgc_partner_portal
+#: model:ir.actions.act_window,name:sgc_partner_portal.action_res_partner_relation_all
+#: model:ir.model,name:sgc_partner_portal.model_res_users
+#: model:ir.ui.menu,name:sgc_partner_portal.portal_managed_users_rel
+msgid "Users"
+msgstr "Gebruikers"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move.report.wizard:sgc_partner_portal.portal_bond_move_report_wizard_view_form
+#: view:portal.bond_account_move_report:sgc_partner_portal.portal_bond_account_move_report_wizard_view_form
+msgid "View Bond Moves"
+msgstr "Bewegingen tonen"
+
+#. module: sgc_partner_portal
+#: field:wizard.portal.adduser,company_visible_0:0
+#: field:wizard.portal.adduser,company_visible_1:0
+#: field:wizard.portal.adduser,company_visible_10:0
+#: field:wizard.portal.adduser,company_visible_11:0
+#: field:wizard.portal.adduser,company_visible_12:0
+#: field:wizard.portal.adduser,company_visible_13:0
+#: field:wizard.portal.adduser,company_visible_14:0
+#: field:wizard.portal.adduser,company_visible_15:0
+#: field:wizard.portal.adduser,company_visible_16:0
+#: field:wizard.portal.adduser,company_visible_17:0
+#: field:wizard.portal.adduser,company_visible_18:0
+#: field:wizard.portal.adduser,company_visible_19:0
+#: field:wizard.portal.adduser,company_visible_2:0
+#: field:wizard.portal.adduser,company_visible_3:0
+#: field:wizard.portal.adduser,company_visible_4:0
+#: field:wizard.portal.adduser,company_visible_5:0
+#: field:wizard.portal.adduser,company_visible_6:0
+#: field:wizard.portal.adduser,company_visible_7:0
+#: field:wizard.portal.adduser,company_visible_8:0
+#: field:wizard.portal.adduser,company_visible_9:0
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#. module: sgc_partner_portal
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+msgid "Welcome on the BC WEB portal"
+msgstr "Welkom op het BC Web portaal"
+
+#. module: sgc_partner_portal
+#: field:portal.bond.move,wiz_id:0
+msgid "Wiz id"
+msgstr "Wiz id"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Works delayed"
+msgstr "Uitstel werken"
+
+#. module: sgc_partner_portal
+#: view:bond.bond:sgc_partner_portal.bond_bond_view_form
+msgid "Works terminated"
+msgstr "Beëindiging werken"
+
+#. module: sgc_partner_portal
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+msgid "You are viewing the data of the following customer:"
+msgstr "Geselecteerde klant:"
+
+#. module: sgc_partner_portal
+#: view:sgc.board:sgc_partner_portal.board_my_dash_view_std
+msgid "ZIP"
+msgstr "ZIP"
+
+#. module: sgc_partner_portal
+#: field:sgc.board,zip:0
+msgid "Zip"
+msgstr "Zip"
+
+#. module: sgc_partner_portal
+#: model:res.partner.relation.type,name_inverse:sgc_partner_portal.rel_is_super_user
+msgid "has_super_user"
+msgstr "has_super_user"
+
+#. module: sgc_partner_portal
+#: model:res.partner.relation.type,name_inverse:sgc_partner_portal.rel_is_user
+msgid "has_user"
+msgstr "has_user"
+
+#. module: sgc_partner_portal
+#: model:res.partner.relation.type,name:sgc_partner_portal.rel_is_super_user
+msgid "is_super_user"
+msgstr "is_super_user"
+
+#. module: sgc_partner_portal
+#: model:res.partner.relation.type,name:sgc_partner_portal.rel_is_user
+msgid "is_user"
+msgstr "is_user"
+
+#. module: sgc_partner_portal
+#: view:portal.bond.move.report.wizard:sgc_partner_portal.portal_bond_move_report_wizard_view_form
+#: view:portal.bond_account_move_report:sgc_partner_portal.portal_bond_account_move_report_wizard_view_form
+#: view:wizard.change.bond_customerref:sgc_partner_portal.wizard_change_customer_ref_form
+#: view:wizard.portal.adduser:sgc_partner_portal.wizard_portal_add_user_form
+#: view:wizard.portal.changecurrentcompany:sgc_partner_portal.wizard_portal_change_current_company_form
+#: view:wizard.portal.changecurrentgroup:sgc_partner_portal.wizard_portal_change_current_group_form
+msgid "or"
+msgstr "of"
+
+#. module: sgc_partner_portal
+#: model:res.partner.relation.type,name_inverse:sgc_partner_portal.rel_portal_manage
+msgid "portal_is_managed"
+msgstr "portal_is_managed"
+
+#. module: sgc_partner_portal
+#: model:res.partner.relation.type,name:sgc_partner_portal.rel_portal_manage
+msgid "portal_manage"
+msgstr "portal_manage"
+

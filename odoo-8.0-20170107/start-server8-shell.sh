@@ -1,0 +1,1 @@
+./odoo.py  --addons-path=/home/chanon/OPENERP/sgc/noviat_generic_addons,/home/chanon/OPENERP/sgc/oca_addons,/home/chanon/OPENERP/sgc/sgc_addons,/home/chanon/OPENERP/odoo8/server-tools-8.0 shell -c ~/OPENERP/config/openerp-server8-sgc.conf -d sgc_20161222_import --log-level=debug

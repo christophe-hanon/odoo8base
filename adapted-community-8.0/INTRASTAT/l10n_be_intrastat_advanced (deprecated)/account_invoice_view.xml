@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+    <record id="intrastat_invoice_form" model="ir.ui.view">
+      <field name="name">intrastat.invoice.form</field>
+      <field name="model">account.invoice</field>
+      <field name="inherit_id" ref="account.invoice_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='date_due']" position="after">
+          <field name="incoterm_id"
+                 attrs="{'invisible': [('intrastat', '!=', 'extended')]}"/>
+        </xpath>
+        <xpath expr="//field[@name='move_id']" position="after">
+          <field name="intrastat_transaction_id"/>
+          <field name="intrastat" invisible="1"/>
+          <field name="transport_mode_id"
+                 attrs="{'invisible': [('intrastat', '!=', 'extended')]}"/>
+          <field name="intrastat_country_id"/>
+        </xpath>
+        <xpath expr="//page[@string='Invoice Lines']//field[@name='account_id']" position="after">
+          <field name="intrastat_id"/>
+        </xpath>
+      </field>
+    </record>
+
+    <record id="intrastat_supplier_invoice_form" model="ir.ui.view">
+      <field name="name">intrastat.invoice.supplier.form</field>
+      <field name="model">account.invoice</field>
+      <field name="inherit_id" ref="account.invoice_supplier_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='payment_term']" position="after">
+          <field name="incoterm_id"
+                 attrs="{'invisible': [('intrastat', '!=', 'extended')]}"/>
+        </xpath>
+        <xpath expr="//field[@name='period_id']" position="after">
+          <field name="intrastat_transaction_id"/>
+          <field name="intrastat" invisible="1"/>
+          <field name="transport_mode_id"
+                 attrs="{'invisible': [('intrastat', '!=', 'extended')]}"/>
+          <field name="intrastat_country_id" />
+        </xpath>
+        <xpath expr="//page[@string='Invoice']//field[@name='account_id']" position="after">
+          <field name="intrastat_id"/>
+        </xpath>
+      </field>
+    </record>
+
+  </data>
+</openerp>

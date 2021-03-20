@@ -1,0 +1,1490 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sgc_partner_portal_request
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20170107\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-15 15:11+0000\n"
+"PO-Revision-Date: 2018-03-15 15:11+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,attachment_count:0
+#: field:portal.bond.request,attachment_count:0
+msgid "# of Attachments"
+msgstr "# de Pièces"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,info_layout_count:0
+#: field:portal.bond.request,info_layout_count:0
+msgid "# of document layouts"
+msgstr "# of document layouts"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,info_req_count:0
+msgid "# of follow-up"
+msgstr "# d'abonnés"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:54
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:242
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:389
+#, python-format
+msgid "1 - Public Sector"
+msgstr "1 - Secteur public et semi-public"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:55
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:243
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:390
+#, python-format
+msgid "2 - Bond Law Breyne"
+msgstr "2 - Acte Loi Breyne"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:56
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:244
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:391
+#, python-format
+msgid "3 - Private Sector"
+msgstr "3 - Secteur privé"
+
+#. module: sgc_partner_portal_request
+#: field:wizard.validate.bond.request,sig_check_title:0
+msgid "Acting as (your title)"
+msgstr "Agissant en tant que (votre titre)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,activity:0
+#: field:portal.bond.request,activity:0
+msgid "Activity type"
+msgstr "Type d'activité"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/wizard/wizard_validate_bond_request.py:94
+#, python-format
+msgid "Add user"
+msgstr "Add user"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_principal_additional_names:0
+#: field:portal.bond.request,portal_principal_additional_names:0
+#: field:view.portal.filtered.partner,principal_additional_names:0
+#: field:wizard.convert.portal.request,portal_new_principal_additional_names:0
+#: field:wizard.convert.portal.request,portal_principal_additional_names:0
+msgid "Additional names"
+msgstr "Nom(s) des bénéficiaires"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,amount_to_release:0
+msgid "Amount to be release at the next release (partial or final)"
+msgstr "Montant à libérer à la prochaine libération (partielle ou totale)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_amount_doc:0
+msgid "Amount to be released (from release document)"
+msgstr "Montant à libérer (voir PV)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,attachment_ids:0
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: field:portal.bond.request,attachment_ids:0
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Base Amount (excl. VAT)"
+msgstr "Montant de base (excl. TVA)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,base_amount:0
+msgid "Base amount"
+msgstr "Base amount"
+
+#. module: sgc_partner_portal_request
+#: model:ir.model,name:sgc_partner_portal_request.model_portal_bond_bond
+msgid "Bond"
+msgstr "Caution"
+
+#. module: sgc_partner_portal_request
+#: model:ir.model,name:sgc_partner_portal_request.model_bond_request
+msgid "Bond Request"
+msgstr "Demande de caution"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,bond_fee_pct:0
+msgid "Bond fee %"
+msgstr "Redevance %"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,bond_fee_discount_pct:0
+msgid "Bond fee discount %"
+msgstr "Ristourne %"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,bond_fee_penalty_pct:0
+msgid "Bond fee penalty %"
+msgstr "Redev. pénalité %"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Bond information"
+msgstr "Cautions"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,bond_move_ids:0
+msgid "Bond moves"
+msgstr "Mouvements caution"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,name:0
+msgid "Bond number"
+msgstr "Numéro de caution"
+
+#. module: sgc_partner_portal_request
+#: model:ir.model,name:sgc_partner_portal_request.model_portal_bond_request
+#: field:portal.bond.bond,request_id:0
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+#: field:portal.bond.request,name:0
+#: field:wizard.convert.portal.request,bond_request_id:0
+msgid "Bond request"
+msgstr "Demande de caution"
+
+#. module: sgc_partner_portal_request
+#: model:ir.ui.menu,name:sgc_partner_portal_request.menu_sgc_portal_bond_request
+msgid "Bond requests"
+msgstr "Demandes de caution"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,public_private:0
+#: field:portal.bond.request,public_private:0
+#: field:wizard.convert.portal.request,public_private:0
+msgid "Bond type"
+msgstr "Type de caution"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: field:portal.bond.request,bond_ids:0
+msgid "Bonds"
+msgstr "Cautions"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,bond_analysis_id:0
+#: field:portal.bond.request,bond_analysis_id:0
+msgid "Bonds analysis"
+msgstr "Analyse des demandes"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:230
+#: field:portal.bond.bond,business_days:0
+#, python-format
+msgid "Business days"
+msgstr "Jours ouvrables"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:231
+#, python-format
+msgid "Calendar days"
+msgstr "Calendar days"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,business_days:0
+msgid "Calendrier"
+msgstr "Calendrier"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+#: view:wizard.validate.bond.request:sgc_partner_portal_request.wizard_portal_approve_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,city:0
+#: field:portal.bond.request,city:0
+#: field:portal.bond.request,portal_new_pc_city:0
+#: field:portal.bond.request,portal_new_principal_city:0
+#: field:portal.bond.request,portal_new_tta_city:0
+#: field:portal.bond.request,portal_onbehalf_city:0
+#: field:portal.bond.request,portal_pc_city:0
+#: field:portal.bond.request,portal_principal_city:0
+#: field:view.portal.filtered.partner,city:0
+#: field:view.portal.tta.partner,city:0
+#: field:wizard.convert.portal.request,portal_new_pc_city:0
+#: field:wizard.convert.portal.request,portal_new_principal_city:0
+#: field:wizard.convert.portal.request,portal_new_tta_city:0
+#: field:wizard.convert.portal.request,portal_onbehalf_city:0
+#: field:wizard.convert.portal.request,portal_pc_city:0
+#: field:wizard.convert.portal.request,portal_principal_city:0
+msgid "City"
+msgstr "Ville"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,zip_id:0
+#: field:portal.bond.request,zip_id:0
+#: field:view.portal.tta.partner,zip_id:0
+#: field:wizard.convert.portal.request,portal_new_principal_zip_id:0
+msgid "City/Location"
+msgstr "Recherche localité"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,letter_template_code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,command_to_admin_date:0
+msgid "Command to Admin date"
+msgstr "Command to Admin date"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,comments:0
+#: field:portal.bond.request,comments:0
+msgid "Comments"
+msgstr "Commentaires"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+#: view:wizard.validate.bond.request:sgc_partner_portal_request.wizard_portal_approve_form
+msgid "Confirm"
+msgstr "Confirmer"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.validate.bond.request:sgc_partner_portal_request.wizard_portal_approve_form
+msgid "Confirm and send request"
+msgstr "Confirmer et envoyer la demande"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Confirm request"
+msgstr "Confirmer"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:421
+#, python-format
+msgid "Convert Request"
+msgstr "Convertir la Demande"
+
+#. module: sgc_partner_portal_request
+#: model:ir.actions.act_window,name:sgc_partner_portal_request.wizard_portal_convert_request_form_action
+msgid "Convert request"
+msgstr "Convertir la demande"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Convert to request"
+msgstr "Convertir la demande"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Coordinates of the T.T.A. taking the bond"
+msgstr "Données de l’A.M. prenant le cautionnement"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,country_id:0
+#: field:portal.bond.request,country_id:0
+msgid "Country"
+msgstr "Pays"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,create_uid:0
+#: field:portal.bond.request,create_uid:0
+#: field:wizard.convert.portal.request,create_uid:0
+#: field:wizard.validate.bond.request,create_uid:0
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,create_date:0
+#: field:portal.bond.request,create_date:0
+#: field:wizard.convert.portal.request,create_date:0
+#: field:wizard.validate.bond.request,create_date:0
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,currency_id:0
+msgid "Currency"
+msgstr "Devise"
+
+#. module: sgc_partner_portal_request
+#: field:attachment.multi.model,partner_id:0
+msgid "Current customer"
+msgstr "Current customer"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,current_guarantee_rate:0
+msgid "Current guarantee %"
+msgstr "Gar. %"
+
+#. module: sgc_partner_portal_request
+#: field:view.portal.tta.partner,left_partner_id:0
+msgid "Current portal partner"
+msgstr "Société en cours dans le portail"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,current_guarantee_req:0
+msgid "Current required guarantee amount"
+msgstr "Current required guarantee amount"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_computed_customer_name:0
+msgid "Customer"
+msgstr "Client"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Customer - TTA"
+msgstr "Client - AM"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,portal_customer_note:0
+msgid "Customer note"
+msgstr "Note client"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,cust_display_nbr:0
+msgid "Customer nr"
+msgstr "Numéro client"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_computed_customer_number:0
+#: field:view.portal.tta.partner,cust_display_nbr:0
+msgid "Customer number"
+msgstr "Numéro client"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,portal_customer_ref:0
+msgid "Customer reference"
+msgstr "Référence client"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Customer taking the bond"
+msgstr "Client prenant la caution"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,message_last_post:0
+#: help:portal.bond.request,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "Date du dernier message posté sur cet enregistrement"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,deeds_created:0
+msgid "Deed documents created"
+msgstr "Actes créés"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,lang:0
+#: field:wizard.convert.portal.request,lang:0
+msgid "Deed language"
+msgstr "Langue de l'acte"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,letter_template_id:0
+#: field:portal.bond.request,letter_template_id:0
+#: field:wizard.convert.portal.request,letter_template_id:0
+msgid "Deed template"
+msgstr "Template de l'acte"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,deposit_date:0
+msgid "Deposit date"
+msgstr "Date dépôt"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,deposit_duty:0
+msgid "Deposit duty"
+msgstr "Frais de dépôt"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,description:0
+#: field:portal.bond.request,description:0
+msgid "Description"
+msgstr "Description"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,description_client:0
+#: field:wizard.convert.portal.request,description_client:0
+msgid "Description Client"
+msgstr "Description Client"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,description_principal:0
+#: field:wizard.convert.portal.request,description_principal:0
+msgid "Description Principal"
+msgstr "Description Principal"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Description of work"
+msgstr "Description du chantier"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,discount_always:0
+msgid "Discount always"
+msgstr "Discount always"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,display_name:0
+#: field:portal.bond.request,display_name:0
+#: field:view.portal.filtered.partner,display_name:0
+#: field:view.portal.tta.partner,display_name:0
+#: field:wizard.convert.portal.request,display_name:0
+#: field:wizard.validate.bond.request,display_name:0
+msgid "Display Name"
+msgstr "Nom"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,display_other_bonds:0
+msgid "Display similar bonds"
+msgstr "Display similar bonds"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Document date"
+msgstr "Date"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Document description"
+msgstr "Description du document"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,info_layout_ids:0
+#: field:portal.bond.request,info_layout_ids:0
+msgid "Document layout"
+msgstr "Format du document"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Enter bond data"
+msgstr "Entrer les informations de caution"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,execution_delay:0
+#: field:portal.bond.request,execution_delay:0
+msgid "Execution delay (days)"
+msgstr "Delai d'exécution (jours)"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Execution delay and date"
+msgstr "Délai d'exécution et date"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Existing client or T.T.A taking the bond"
+msgstr "Client ou A.M. existant prenant le cautionnement"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Existing name and address"
+msgstr "Existing name and address"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,progress_amount:0
+msgid "Exposure of the bond"
+msgstr "Encours du cautionnement"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "File"
+msgstr "Fichier"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,file_nbr:0
+msgid "File N°"
+msgstr "N° dossier"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "File name"
+msgstr "Nom de fichier"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,file_nbr:0
+msgid "File number"
+msgstr "N° dossier"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_date:0
+#: field:portal.bond.bond,final_accept_date_b:0
+msgid "Final acceptance actual date"
+msgstr "Date de réception définitivie"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_agreed:0
+#: field:portal.bond.bond,final_accept_agreed_b:0
+msgid "Final acceptance agreed"
+msgstr "Réception finale accordée"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_estim:0
+#: field:portal.bond.bond,final_accept_estim_b:0
+msgid "Final acceptance estimated date"
+msgstr "Date estimée de réception finale"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_mins_comments_b:0
+#: field:portal.bond.bond,final_accept_minutes:0
+#: field:portal.bond.bond,final_accept_minutes_b:0
+msgid "Final acceptance minutes"
+msgstr "PV réception finale"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_mins_comments:0
+msgid "Final acceptance minutes comments"
+msgstr "Final acceptance minutes comments"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_planned:0
+#: field:portal.bond.bond,final_accept_planned_b:0
+msgid "Final acceptance planned"
+msgstr "Final acceptance planned"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_rejected:0
+#: field:portal.bond.bond,final_accept_rejected_b:0
+msgid "Final acceptance rejection"
+msgstr "Final acceptance rejection"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_reject_mins:0
+#: field:portal.bond.bond,final_accept_reject_mins_b:0
+msgid "Final acceptance rejection minutes"
+msgstr "Final acceptance rejection minutes"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_requested:0
+#: field:portal.bond.bond,final_accept_requested_b:0
+msgid "Final acceptance requested"
+msgstr "Réception finale demandée"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,message_follower_ids:0
+#: field:portal.bond.request,message_follower_ids:0
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+msgid "Group By"
+msgstr "Groupé Par"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,guarantee_delay:0
+msgid "Guarantee delay (months)"
+msgstr "Délai de garantie (mois)"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,message_summary:0
+#: help:portal.bond.request,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+
+#. module: sgc_partner_portal_request
+#: field:wizard.validate.bond.request,sig_check_right:0
+msgid "I confirm I am legally autorized to request this bond"
+msgstr "Je confirme être mandaté à demander des cautionnements à la SOCIETE GENERALE DE CAUTIONNEMENT."
+
+#. module: sgc_partner_portal_request
+#: field:wizard.validate.bond.request,sig_check_doc_out_of_band:0
+msgid "I confirm that I have sent the necessary documentation by other means"
+msgstr "Je confirme que j’ai transmis les documents nécessaires d’une manière alternative."
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,id:0
+#: field:portal.bond.request,id:0
+#: field:view.portal.filtered.partner,id:0
+#: field:view.portal.tta.partner,id:0
+#: field:wizard.convert.portal.request,id:0
+#: field:wizard.validate.bond.request,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,identification_nbr:0
+msgid "Identification N°"
+msgstr "N° d'identification"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,identification_nbr:0
+msgid "Identification number"
+msgstr "Numéro d'identification"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,message_unread:0
+#: help:portal.bond.request,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "If checked new messages require your attention."
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,import_id:0
+#: field:portal.bond.request,import_id:0
+msgid "Import record line"
+msgstr "Import record line"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,included_in_analyze:0
+msgid "Included"
+msgstr "Inclus"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,included_in_analyze:0
+msgid "Indicates if the line is included in analyzed bondsfrom the analysis form"
+msgstr "Indicates if the line is included in analyzed bondsfrom the analysis form"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,info_req_ids:0
+msgid "Information requests"
+msgstr "Demandes d'informations"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,initial_exposure_amount_to_text:0
+msgid "Initial Exposure Amount in text"
+msgstr "Initial Exposure Amount in text"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,initial_exposure_amount:0
+msgid "Initial exposure amount"
+msgstr "Montant initial"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,intern_nbr:0
+msgid "Internal number"
+msgstr "Numéro interne"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,message_is_follower:0
+#: field:portal.bond.request,message_is_follower:0
+msgid "Is a Follower"
+msgstr "Est abonné"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,message_last_post:0
+#: field:portal.bond.request,message_last_post:0
+msgid "Last Message Date"
+msgstr "Date du dernier message"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,__last_update:0
+#: field:portal.bond.request,__last_update:0
+#: field:view.portal.filtered.partner,__last_update:0
+#: field:view.portal.tta.partner,__last_update:0
+#: field:wizard.convert.portal.request,__last_update:0
+#: field:wizard.validate.bond.request,__last_update:0
+msgid "Last Modified on"
+msgstr "Dernière modification"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,write_uid:0
+#: field:portal.bond.request,write_uid:0
+#: field:wizard.convert.portal.request,write_uid:0
+#: field:wizard.validate.bond.request,write_uid:0
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,write_date:0
+#: field:portal.bond.request,write_date:0
+#: field:wizard.convert.portal.request,write_date:0
+#: field:wizard.validate.bond.request,write_date:0
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,layout_template_id:0
+msgid "Layout template id"
+msgstr "Layout template id"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_order_date:0
+msgid "Letter order date"
+msgstr "Date de lettre de commande"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,brother_bond_ids:0
+msgid "Linked bonds"
+msgstr "Linked bonds"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,market_date:0
+#: field:portal.bond.request,market_date:0
+#: field:wizard.convert.portal.request,market_date:0
+msgid "Market Date"
+msgstr "Date du marché"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,market_type:0
+#: field:portal.bond.request,market_type:0
+#: field:wizard.convert.portal.request,market_type:0
+msgid "Market type"
+msgstr "Type de marché"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Market type and date"
+msgstr "Type et date du marché"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,market_type_text:0
+#: field:portal.bond.request,market_type_text:0
+#: field:wizard.convert.portal.request,market_type_text:0
+msgid "Market type text"
+msgstr "Type de marché (texte)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,message_ids:0
+#: field:portal.bond.request,message_ids:0
+msgid "Messages"
+msgstr "Messages"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,message_ids:0
+#: help:portal.bond.request,message_ids:0
+msgid "Messages and communication history"
+msgstr "Historique des messages et communications"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_mins_release_code:0
+msgid "Minutes release code"
+msgstr "Minutes release code"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_mins_release_code:0
+msgid "Minutes release code (final acceptation)"
+msgstr "Minutes release code (final acceptation)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_mins_release_com:0
+msgid "Minutes release mention"
+msgstr "Minutes release mention"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,final_accept_mins_release_com:0
+msgid "Minutes release mention (final acceptation)"
+msgstr "Minutes release mention (final acceptation)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,my_attachment_ids:0
+msgid "My attachment ids"
+msgstr "My attachment ids"
+
+#. module: sgc_partner_portal_request
+#: model:ir.ui.menu,name:sgc_partner_portal_request.menu_bonds_requests_tree
+msgid "My requests"
+msgstr "Mes demandes"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,work_riziv_onss:0
+msgid "NSSO Project ID #"
+msgstr "N° chantier ONSS"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_pc_name:0
+#: field:portal.bond.request,portal_new_tta_name:0
+#: view:view.portal.filtered.partner:sgc_partner_portal_request.view_portal_filtered_partner_search
+#: field:view.portal.filtered.partner,name:0
+#: view:view.portal.tta.partner:sgc_partner_portal_request.view_portal_tta_partner_search
+#: field:view.portal.tta.partner,name:0
+#: field:wizard.convert.portal.request,portal_new_pc_name:0
+#: field:wizard.convert.portal.request,portal_new_tta_name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Name and address"
+msgstr "Nom et adresse"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_request_require_pc:0
+#: field:wizard.convert.portal.request,portal_request_require_pc:0
+msgid "Name and address different from the client taking the bond"
+msgstr "Nom et adresse différent du client prenant le cautionnement"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_request_new_pc:0
+#: field:wizard.convert.portal.request,portal_request_new_pc:0
+msgid "Name and address not in list"
+msgstr "Nom et adresse pas dans la liste"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Name and address on the bond"
+msgstr "Nom et adresse sur le cautionnement"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Name and address to use for the bond"
+msgstr "Nom et adresse à utiliser pour la caution"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+msgid "New"
+msgstr "Nouveau"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "New Name and address for the bond"
+msgstr "Nouveau nom et adresse pour la caution"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "New Name and address for the principal"
+msgstr "Nouveau nom et addresse du maître d'ouvrage"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:206
+#, python-format
+msgid "New request"
+msgstr "Nouvelle demande"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,amount_to_release:0
+msgid "Next release amount"
+msgstr "Montant prochaine libération"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,next_release_date:0
+msgid "Next release date"
+msgstr "Date de la prochaine libération"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,next_release_date:0
+msgid "Next release date is the partial release date or the finalrelease date depending on the release bond moves"
+msgstr "Next release date is the partial release date or the finalrelease date depending on the release bond moves"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,next_state:0
+msgid "Next state"
+msgstr "Etape suivante"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,non_blocking_warning_dict:0
+msgid "Non blocking warning dict"
+msgstr "Non blocking warning dict"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,doc_nbr:0
+msgid "Number"
+msgstr "Numéro"
+
+#. module: sgc_partner_portal_request
+#: field:wizard.validate.bond.request,number_of_annex:0
+msgid "Number of documents"
+msgstr "Nombres de documents"
+
+#. module: sgc_partner_portal_request
+#: model:ir.model,name:sgc_partner_portal_request.model_attachment_multi_model
+msgid "Object to store Attachments linked to multiple Objects"
+msgstr "Object pour stocker des annexes liées à plusieurs objets"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_onbehalf_partner_id:0
+#: field:wizard.convert.portal.request,portal_onbehalf_partner_id:0
+msgid "On behalf"
+msgstr "Au nom de"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,search_bond_id:0
+msgid "Open other bond"
+msgstr "Open other bond"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,parent_id:0
+msgid "Parent bond"
+msgstr "Parent bond"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,partner_id:0
+#: field:portal.bond.request,partner_id:0
+#: view:view.portal.filtered.partner:sgc_partner_portal_request.view_portal_filtered_partner_view_form
+#: view:view.portal.tta.partner:sgc_partner_portal_request.view_portal_tta_partner_view_form
+msgid "Partner"
+msgstr "Partneraire"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,partner_nbr:0
+msgid "Partner number"
+msgstr "Numéro client"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,invoice_id:0
+msgid "Payment invitation"
+msgstr "Payment invitation"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:102
+#, python-format
+msgid "Please select a current company before to proceed"
+msgstr "Sélectionner un client en cours avant de continuer"
+
+#. module: sgc_partner_portal_request
+#: model:ir.actions.act_window,name:sgc_partner_portal_request.bond_request_action
+#: model:ir.actions.act_window,name:sgc_partner_portal_request.bond_request_action_backend
+msgid "Portal Bond requests"
+msgstr "Requête portail"
+
+#. module: sgc_partner_portal_request
+#: model:ir.ui.menu,name:sgc_partner_portal_request.menu_portal_backend_bonds_requests_tree
+msgid "Portal Requests"
+msgstr "Portal Requests"
+
+#. module: sgc_partner_portal_request
+#: field:bond.request,portal_bond_request_id:0
+#: field:wizard.convert.portal.request,portal_bond_request_id:0
+msgid "Portal bond request"
+msgstr "Demande de caution (portail)"
+
+#. module: sgc_partner_portal_request
+#: field:attachment.multi.model,portal_request_id:0
+msgid "Portal request"
+msgstr "Portal request"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,portal_computed_principal_name:0
+#: field:portal.bond.bond,principal_id:0
+#: field:portal.bond.bond,principal_name:0
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: field:portal.bond.request,portal_computed_principal_name:0
+#: field:portal.bond.request,portal_principal_id:0
+#: field:portal.bond.request,principal_id:0
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+#: field:wizard.convert.portal.request,portal_principal_id:0
+msgid "Principal"
+msgstr "Maître d'ouvrage"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Principal - Description of work"
+msgstr "Maître d'ouvrage - chantier"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,principal_nbr:0
+msgid "Principal nr"
+msgstr "Maître d'ouvrage nr"
+
+#. module: sgc_partner_portal_request
+#: field:view.portal.filtered.partner,principal_number:0
+msgid "Principal number"
+msgstr "Maître d'ouvrage nr"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Printing client"
+msgstr "Client d'impression"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,contact_id:0
+#: field:portal.bond.request,contact_id:0
+msgid "Printing partner"
+msgstr "Client d'impression"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+msgid "Processed"
+msgstr "Traité"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,progress_amount:0
+msgid "Progress amount"
+msgstr "Montant en cours"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,proposed_deposit_date:0
+msgid "Proposed deposit date"
+msgstr "Proposed deposit date"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_date:0
+#: field:portal.bond.bond,prov_accept_date_b:0
+msgid "Provisional acceptance actual date"
+msgstr "Provisional acceptance actual date"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_agreed:0
+#: field:portal.bond.bond,prov_accept_agreed_b:0
+msgid "Provisional acceptance agreed"
+msgstr "Date de réception provisoire acceptée"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_delayed:0
+#: field:portal.bond.bond,prov_accept_delayed_b:0
+msgid "Provisional acceptance delayed"
+msgstr "Provisional acceptance delayed"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_estim:0
+#: field:portal.bond.bond,prov_accept_estim_b:0
+msgid "Provisional acceptance estimated"
+msgstr "Date estimée de réception provisoire"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_mins_comments_b:0
+#: field:portal.bond.bond,prov_accept_minutes:0
+#: field:portal.bond.bond,prov_accept_minutes_b:0
+msgid "Provisional acceptance minutes"
+msgstr "Provisional acceptance minutes"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_mins_comments:0
+msgid "Provisional acceptance minutes comments"
+msgstr "Provisional acceptance minutes comments"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_planned:0
+#: field:portal.bond.bond,prov_accept_planned_b:0
+msgid "Provisional acceptance planned"
+msgstr "Provisional acceptance planned"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_rejected:0
+#: field:portal.bond.bond,prov_accept_rejected_b:0
+msgid "Provisional acceptance rejection"
+msgstr "Provisional acceptance rejection"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_reject_mins:0
+#: field:portal.bond.bond,prov_accept_reject_mins_b:0
+msgid "Provisional acceptance rejection minutes"
+msgstr "Provisional acceptance rejection minutes"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_requested:0
+#: field:portal.bond.bond,prov_accept_requested_b:0
+msgid "Provisional acceptance requested"
+msgstr "Provisional acceptance requested"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,prov_accept_terminated:0
+#: field:portal.bond.bond,prov_accept_terminated_b:0
+msgid "Provisional acceptance terminated"
+msgstr "Provisional acceptance terminated"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,rate:0
+msgid "Rate"
+msgstr "Taux"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Rate (%)"
+msgstr "Taux (%)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_readonly:0
+msgid "Readonly"
+msgstr "Plus modifiable"
+
+#. module: sgc_partner_portal_request
+#: field:wizard.convert.portal.request,portal_onbehalf_registry_number:0
+#: field:wizard.convert.portal.request,portal_pc_registry_number:0
+#: field:wizard.convert.portal.request,portal_principal_registry_number:0
+msgid "Registered Company Number"
+msgstr "Numéro d'entreprise"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_pc_registry_number:0
+#: field:portal.bond.request,portal_new_principal_registry_number:0
+#: field:portal.bond.request,portal_new_tta_registry_number:0
+#: field:portal.bond.request,portal_onbehalf_registry_number:0
+#: field:portal.bond.request,portal_pc_registry_number:0
+#: field:portal.bond.request,portal_principal_registry_number:0
+#: field:view.portal.filtered.partner,registry_number:0
+#: field:view.portal.tta.partner,registry_number:0
+#: field:wizard.convert.portal.request,portal_new_pc_registry_number:0
+#: field:wizard.convert.portal.request,portal_new_principal_registry_number:0
+#: field:wizard.convert.portal.request,portal_new_tta_registry_number:0
+msgid "Registry number"
+msgstr "N°BCE"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_condition_text:0
+msgid "Release Condition Text for Document"
+msgstr "Release Condition Text for Document"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_amount_rejected:0
+msgid "Release amount refused"
+msgstr "Release amount refused"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_doc_copy:0
+msgid "Release document copy"
+msgstr "Release document copy"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_doc_send_date:0
+msgid "Release document sent to DCO"
+msgstr "Release document sent to DCO"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_doc_rejected:0
+msgid "Release rejected"
+msgstr "Release rejected"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_term_final:0
+msgid "Release terms at final reception"
+msgstr "Release terms at final reception"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_term_prov:0
+msgid "Release terms at provisional reception"
+msgstr "Condition de libération à la réception préliminaire."
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_remarks:0
+msgid "Remarks"
+msgstr "Remarques"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_request_new_principal:0
+#: field:wizard.convert.portal.request,portal_request_new_principal:0
+msgid "Request a new principal"
+msgstr "Demande un nouveau maître d'ouvrage"
+
+#. module: sgc_partner_portal_request
+#: field:wizard.convert.portal.request,portal_request_new_tta:0
+msgid "Request new tta"
+msgstr " A.M. pas dans la liste"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,req_reception_date:0
+msgid "Request reception date"
+msgstr "Date de demande"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+msgid "Requestor"
+msgstr "Demandeur"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,warning_flag:0
+msgid "Requires check"
+msgstr "Requires check"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,release_state:0
+msgid "Residual amount total-balance"
+msgstr "Residual amount total-balance"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+msgid "Search bond requests"
+msgstr "Search bond requests"
+
+#. module: sgc_partner_portal_request
+#: view:view.portal.filtered.partner:sgc_partner_portal_request.view_portal_filtered_partner_search
+#: view:view.portal.tta.partner:sgc_partner_portal_request.view_portal_tta_partner_search
+msgid "Search known principals"
+msgstr "Recherche maître d'ouvrage"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_pc_zip_id:0
+#: field:portal.bond.request,portal_new_principal_zip_id:0
+#: field:portal.bond.request,portal_new_tta_zip_id:0
+#: field:wizard.convert.portal.request,portal_new_pc_zip_id:0
+#: field:wizard.convert.portal.request,portal_new_tta_zip_id:0
+msgid "Search location"
+msgstr " Recherche localité"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_principal_name:0
+#: field:portal.bond.request,portal_principal_name:0
+#: field:wizard.convert.portal.request,portal_new_principal_name:0
+#: field:wizard.convert.portal.request,portal_principal_name:0
+msgid "Search name"
+msgstr "Search name"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/models/portal_bond_request.py:400
+#, python-format
+msgid "Send Request"
+msgstr "Envoyer la demande"
+
+#. module: sgc_partner_portal_request
+#: code:addons/sgc_partner_portal_request/wizard/wizard_convert_request.py:229
+#: model:ir.actions.act_window,name:sgc_partner_portal_request.wizard_portal_approve_form_action
+#, python-format
+msgid "Send request"
+msgstr "Envoyer la demande"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+msgid "Sent"
+msgstr "Envoyé"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,discount_always:0
+msgid "Set this flag to ensure that discounts and penalties are calculated every month, independant of bond dates/delays."
+msgstr "Set this flag to ensure that discounts and penalties are calculated every month, independant of bond dates/delays."
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,short_description:0
+msgid "Short Description"
+msgstr "Description"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Sign and send request"
+msgstr "Signer et envoyer la demande"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_signatory_name:0
+msgid "Signatory name"
+msgstr "Nom du signataire"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_signatory_title:0
+msgid "Signatory title"
+msgstr "Titre du signataire"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Signed by"
+msgstr "Signé par"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,source:0
+#: field:portal.bond.request,source:0
+msgid "Source"
+msgstr "Source"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_special_template_text:0
+#: field:wizard.convert.portal.request,portal_special_template_text:0
+msgid "Specification of template"
+msgstr "Spécification du modèle"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,specification_nbr:0
+msgid "Specifications N°"
+msgstr "N° cahier des charges"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,specification_nbr:0
+msgid "Specifications number"
+msgstr "N° cahier des charges"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,state_id:0
+#: field:portal.bond.request,state_id:0
+msgid "State"
+msgstr "Province"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,state:0
+#: field:portal.bond.bond,state_private:0
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_search
+#: field:portal.bond.request,state:0
+msgid "Status"
+msgstr "Status"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,street:0
+#: field:portal.bond.request,portal_new_pc_street:0
+#: field:portal.bond.request,portal_new_principal_street:0
+#: field:portal.bond.request,portal_new_tta_street:0
+#: field:portal.bond.request,portal_onbehalf_street:0
+#: field:portal.bond.request,portal_pc_street:0
+#: field:portal.bond.request,portal_principal_street:0
+#: field:portal.bond.request,street:0
+#: field:view.portal.filtered.partner,street:0
+#: field:view.portal.tta.partner,street:0
+#: field:wizard.convert.portal.request,portal_new_pc_street:0
+#: field:wizard.convert.portal.request,portal_new_principal_street:0
+#: field:wizard.convert.portal.request,portal_new_tta_street:0
+#: field:wizard.convert.portal.request,portal_onbehalf_street:0
+#: field:wizard.convert.portal.request,portal_pc_street:0
+#: field:wizard.convert.portal.request,portal_principal_street:0
+msgid "Street"
+msgstr "Rue"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_pc_street2:0
+#: field:portal.bond.request,portal_new_principal_street2:0
+#: field:portal.bond.request,portal_new_tta_street2:0
+#: field:portal.bond.request,portal_principal_street2:0
+#: field:wizard.convert.portal.request,portal_new_pc_street2:0
+#: field:wizard.convert.portal.request,portal_new_principal_street2:0
+#: field:wizard.convert.portal.request,portal_new_tta_street2:0
+#: field:wizard.convert.portal.request,portal_principal_street2:0
+msgid "Street (2)"
+msgstr "Rue (2)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_onbehalf_street2:0
+#: field:portal.bond.request,portal_pc_street2:0
+#: field:view.portal.filtered.partner,street2:0
+#: field:view.portal.tta.partner,street2:0
+#: field:wizard.convert.portal.request,portal_onbehalf_street2:0
+#: field:wizard.convert.portal.request,portal_pc_street2:0
+msgid "Street2"
+msgstr "Rue (2)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,message_summary:0
+#: field:portal.bond.request,message_summary:0
+msgid "Summary"
+msgstr "Résumé"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_request_new_tta:0
+msgid "T.T.A not in the list"
+msgstr "A.M. pas dans la liste"
+
+#. module: sgc_partner_portal_request
+#: help:portal.bond.bond,release_state:0
+msgid "T=Total amount still to be releasedS=Partial release occured alredy"
+msgstr "T=Total amount still to be releasedS=Partial release occured alredy"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_private_template:0
+#: field:wizard.convert.portal.request,portal_private_template:0
+msgid "Template"
+msgstr "Modèle"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,template_model_id:0
+#: field:wizard.convert.portal.request,template_model_id:0
+msgid "Template model id"
+msgstr "Modèle"
+
+#. module: sgc_partner_portal_request
+#: view:portal.bond.request:sgc_partner_portal_request.bond_request_view_form
+msgid "Total amount"
+msgstr "Montant total"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,total_bond_amount:0
+msgid "Total requested amount"
+msgstr "Montant total demandé"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,total_vat_excl:0
+msgid "Total submission amount (excl.VAT)"
+msgstr "Montant total (hors TVA)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,total_vat_incl:0
+msgid "Total submission amount (incl.VAT)"
+msgstr "Montant total (TVA inc.)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,type:0
+msgid "Type"
+msgstr "Type"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_signatory_uid:0
+msgid "UID"
+msgstr "UID"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,message_unread:0
+#: field:portal.bond.request,message_unread:0
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: sgc_partner_portal_request
+#: field:wizard.convert.portal.request,portal_pc_partner_id:0
+msgid "Use address of"
+msgstr "Utiliser l’adresse de\" "
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_pc_partner_id:0
+msgid "Use the address of"
+msgstr "Utiliser l’adresse de"
+
+#. module: sgc_partner_portal_request
+#: help:wizard.convert.portal.request,portal_onbehalf_registry_number:0
+#: help:wizard.convert.portal.request,portal_pc_registry_number:0
+#: help:wizard.convert.portal.request,portal_principal_registry_number:0
+msgid "Use this field to register the unique number attributed by the authorities to the legal entity of this partner.\n"
+"e.g KBO/BCE number for Belgium."
+msgstr "Use this field to register the unique number attributed by the authorities to the legal entity of this partner.\n"
+"e.g KBO/BCE number for Belgium."
+
+#. module: sgc_partner_portal_request
+#: field:view.portal.filtered.partner,user_id:0
+#: field:view.portal.tta.partner,user_id:0
+msgid "User id"
+msgstr "Utilisateur"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_signatory_partner_name:0
+#: field:portal.bond.request,portal_signatory_user_name:0
+msgid "Username"
+msgstr "Utilisateur"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,vat:0
+msgid "VAT (%)"
+msgstr "TVA (%)"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,similar_bond_ids:0
+msgid "Warning! Similar bonds are already in approval process:"
+msgstr "Warning! Similar bonds are already in approval process:"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,prov_accept_estim:0
+msgid "Work estimated end date"
+msgstr "Réception provisoire estimée"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,work_start_date:0
+#: field:portal.bond.request,work_start_date:0
+msgid "Works start date"
+msgstr "Début des travaux"
+
+#. module: sgc_partner_portal_request
+#: field:wizard.validate.bond.request,sig_check_name:0
+msgid "Your name"
+msgstr "Votre nom"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.request,portal_new_pc_zip:0
+#: field:portal.bond.request,portal_new_principal_zip:0
+#: field:portal.bond.request,portal_new_tta_zip:0
+#: field:portal.bond.request,portal_principal_zip:0
+#: field:wizard.convert.portal.request,portal_new_pc_zip:0
+#: field:wizard.convert.portal.request,portal_new_principal_zip:0
+#: field:wizard.convert.portal.request,portal_new_tta_zip:0
+#: field:wizard.convert.portal.request,portal_principal_zip:0
+msgid "ZIP"
+msgstr "Code postal"
+
+#. module: sgc_partner_portal_request
+#: field:portal.bond.bond,zip:0
+#: field:portal.bond.request,portal_onbehalf_zip:0
+#: field:portal.bond.request,portal_pc_zip:0
+#: field:portal.bond.request,zip:0
+#: field:view.portal.filtered.partner,zip:0
+#: field:view.portal.tta.partner,zip:0
+#: field:wizard.convert.portal.request,portal_onbehalf_zip:0
+#: field:wizard.convert.portal.request,portal_pc_zip:0
+msgid "Zip"
+msgstr "Code postal"
+
+#. module: sgc_partner_portal_request
+#: view:wizard.convert.portal.request:sgc_partner_portal_request.wizard_portal_convert_request_form
+#: view:wizard.validate.bond.request:sgc_partner_portal_request.wizard_portal_approve_form
+msgid "or"
+msgstr "ou"
+
